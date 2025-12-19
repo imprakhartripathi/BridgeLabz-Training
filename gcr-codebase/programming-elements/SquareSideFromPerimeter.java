@@ -1,16 +1,12 @@
-// Write a program to find the side of the square whose parameter you read from user 
-// Hint => Perimeter of Square is 4 times side
-// I/P => perimeter
-// O/P => The length of the side is ___ whose perimeter is ____
-
 import java.util.Scanner;
 
-public class Twentyone {
+public class SquareSideFromPerimeter {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the perimeter of the square: ");
             double perimeter = sc.nextDouble();
             
+            // Side of square from perimeter: side = perimeter / 4 (all sides equal)
             double side = perimeter / 4;
             
             System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter);

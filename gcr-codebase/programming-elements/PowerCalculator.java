@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Eight {
+public class PowerCalculator {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             double base = sc.nextDouble();

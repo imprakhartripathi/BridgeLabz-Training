@@ -1,9 +1,4 @@
-// Write a program to input the unit price of an item and the quantity to be bought. Then, calculate the total price.
-// Hint => NA
-// I/P => unitPrice, quantity
-// O/P => The total purchase price is INR ___ if the quantity ___ and unit price is INR ___
-
-public class Twentythree {
+public class TotalPurchasePrice {
     public static void main(String[] args) {
         try (java.util.Scanner sc = new java.util.Scanner(System.in)) {
             System.out.print("Enter the unit price of the item: ");
