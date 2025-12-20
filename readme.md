@@ -114,6 +114,7 @@ Java basics, GitHub workflow, structured problem-solving, and progressive diffic
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
+> Note: Commit entries are documented post-commit. Therefore, the branch history on GitHub may occasionally be ahead of this log.
 
 
 ```
@@ -125,7 +126,12 @@ The following commit history reflects **actual work progression**:
 2025-12-19 969dadd [Prakhar Tripathi] Added - Level 1 Questions in Control Flow
 2025-12-19 9ab7933 [Prakhar Tripathi] Added - Level 2 Questions in Control Flow
 2025-12-19 4f76b4f [Prakhar Tripathi] Added - Level 3 Questions in Control Flow
+2025-12-20 47a0aa6 [Prakhar Tripathi] Added - Gitignore. Refactored - Readme.md
+2025-12-20 e5da393 [Prakhar Triathi] Added - 2 Scenario Based Questions. Refactored - Readme.md accordingly
 ```
+
+To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
+
 
 ---
 
@@ -134,3 +140,4 @@ The following commit history reflects **actual work progression**:
 * Weekly sections will be extended as training progresses
 * Daily summaries will stay **short and factual**
 * Commit history will remain the **single source of truth**
+
