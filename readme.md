@@ -24,7 +24,7 @@ The codebase is organized by concept for clarity and scalability:
   Core Java practice aligned with GCR curriculum
   - [`programming-elements`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements) ↗️
   - [`control-flow`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow) ↗️
-  <!-- - [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️ -->
+  - [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️
 
 - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) ↗️**  
   LeetCode-style problems for logic building.
@@ -102,12 +102,53 @@ Java basics, GitHub workflow, structured problem-solving, and progressive diffic
 
 ---
 
-### 📅 **20 Dec — Scenario-Based Programs & Refined I/O**
+### 📅 **20 Dec — Scenario-Based Programs & GCR Arrays Problems**
+
+**Scenario Based Questions**
 
 - Implemented scenario-based exercises to practice I/O, control flow, and basic arithmetic:
   - `MayaBMIFitnessTracker.java` — Interactive BMI tracker: prompts for weight and height, computes BMI using `weight / (height * height)`, and prints category (Underweight / Normal / Overweight).
   - `TheCoffeeCounterChronicles.java` — Cafe billing simulator: accepts coffee type and quantity, computes bill, applies 18% GST, and supports `exit` to quit the loop.
 - Files added under the `scenario-based` folder with clear, self-explanatory class names and concise user prompts.
+
+
+ **GCR Arrays Level-1 Problems**
+
+- Solved **Level 1 GCR Arrays questions**
+- Implemented core array manipulation and iteration concepts
+
+📂 Reference:
+- [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️  
+  Includes:
+  - `FactorsArrays.java`
+  - `FizzBuzzArrays.java`
+  - `MaxOfTen.java`
+  - `MeanHeight.java`
+  - `MultiplicationTableSixToNine.java`
+  - `MultiplicationTableWithArrays.java`
+  - `NumberChecker.java`
+  - `OddEvenArrays.java`
+  - `TDArrayToSDArray.java`
+  - `VotingEligibilityUsingArrays.java`
+
+**GCR Arrays Level-2 Problems**
+
+- Solved **Level 2 GCR Arrays questions**
+- Implemented advanced array manipulation with multi-dimensional arrays and complex logic
+
+📂 Reference:
+- [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️  
+  Includes:
+  - `AmarAkbarAnthonyPartTwo.java`
+  - `BMIWithArrays.java`
+  - `BMIWithMDArray.java`
+  - `DigitFrequency.java`
+  - `Digits.java`
+  - `DigitsModified.java`
+  - `PCMCalculatorWithArrays.java`
+  - `PCMCalculatorWithTDArray.java`
+  - `ReverseNumber.java`
+  - `SalaryCalculator.java`
 
 ---
 
@@ -128,6 +169,9 @@ The following commit history reflects **actual work progression**:
 2025-12-19 4f76b4f [Prakhar Tripathi] Added - Level 3 Questions in Control Flow
 2025-12-20 47a0aa6 [Prakhar Tripathi] Added - Gitignore. Refactored - Readme.md
 2025-12-20 e5da393 [Prakhar Triathi] Added - 2 Scenario Based Questions. Refactored - Readme.md accordingly
+2025-12-20 28e1d62 [Prakhar Tripathi] - Refactored - Readme for Correct Logs
+2025-12-20 abf5ee7 [Prakhar Tripathi] Added - Level 1 Arrays Questions in GCR
+2025-12-20 bb2e75a [Prakhar Tripathi] Added - Level 2 Arrays Questions in GCR
 ```
 
 To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
