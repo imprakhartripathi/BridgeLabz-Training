@@ -29,8 +29,8 @@ The codebase is organized by concept for clarity and scalability:
 - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) ↗️**  
   LeetCode-style problems for logic building.
 
-<!-- - **[`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️**  
-  Scenario-driven logical and conditional problems -->
+- **[`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️**  
+  Scenario-driven logical and conditional problems
 
 ---
 
@@ -99,6 +99,15 @@ Java basics, GitHub workflow, structured problem-solving, and progressive diffic
   - Conditional logic (Even/Odd, Leap Year, Voting Eligibility)
   - Iterative logic (Factorial, Multiplication Table, FizzBuzz)
   - Number-based problems (Prime, Armstrong, Harshad)
+
+---
+
+### 📅 **20 Dec — Scenario-Based Programs & Refined I/O**
+
+- Implemented scenario-based exercises to practice I/O, control flow, and basic arithmetic:
+  - `MayaBMIFitnessTracker.java` — Interactive BMI tracker: prompts for weight and height, computes BMI using `weight / (height * height)`, and prints category (Underweight / Normal / Overweight).
+  - `TheCoffeeCounterChronicles.java` — Cafe billing simulator: accepts coffee type and quantity, computes bill, applies 18% GST, and supports `exit` to quit the loop.
+- Files added under the `scenario-based` folder with clear, self-explanatory class names and concise user prompts.
 
 ---
 
