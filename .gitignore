@@ -1,0 +1,13 @@
+# JVM / Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE noise
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
