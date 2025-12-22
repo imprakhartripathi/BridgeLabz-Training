@@ -25,6 +25,7 @@ The codebase is organized by concept for clarity and scalability:
   - [`programming-elements`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements) ↗️
   - [`control-flow`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow) ↗️
   - [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️
+  - [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️
 
 - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) ↗️**  
   LeetCode-style problems for logic building.
@@ -152,6 +153,77 @@ Java basics, GitHub workflow, structured problem-solving, and progressive diffic
 
 ---
 
+
+## **Week 2 — String Manipulation & Exception Handling**
+
+📅 *Started: 22-Dec-2025 (Monday)*
+
+**Focus:**  
+String manipulation, exception handling basics, and deep dive into Java string methods and error scenarios.
+
+---
+
+### 📅 **22 Dec — GCR Codes Level 1, 2 and 3 Strings & Exception Handling**
+
+- Implemented **Level 1 GCR String questions** covering string methods, comparisons, and manipulations
+- Added **exception handling demonstrations** to understand common runtime errors
+- Practice with String operations and exception scenarios
+
+📂 Reference:
+- [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️  
+  Includes:
+  - `AllStringChars.java` — Iterating through string characters
+  - `SubString.java` — Substring extraction and manipulation
+  - `Compare.java` — String comparison operations
+  - `ConvertToUppercaseAndCompare.java` — Case conversion and comparison
+  - `ConvertToLowercaseAndCompare.java` — Lowercase conversion and comparison
+  - `ArrayIndexOutOfBoundsExceptionDemo.java` — AIOOBE exception handling
+  - `IllegalArgumentExceptionDemo.java` — IllegalArgument exception scenarios
+  - `NPEDemo.java` — NullPointerException handling
+  - `NumberFormatExceptionDemo.java` — NumberFormat exception scenarios
+  - `SIOOBEDemo.java` — StringIndexOutOfBoundsException handling
+
+**GCR Level-2 Strings Problems**
+
+- Solved **Level 2 GCR String questions**
+- Implemented advanced string manipulation with complex logic and multi-method operations
+
+📂 Reference:
+- [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️  
+  Includes:
+  - `LengthOfString.java`
+  - `SplitTextToWords.java`
+  - `SplitTextToWordsTDArray.java`
+  - `TrimSpaces.java`
+  - `ShortestAndLongestStrinngs.java`
+  - `VowelsAndConsonents.java`
+  - `VowelsAndConsonentsTwo.java`
+  - `EligibleToVote.java`
+  - `MarksCalculator.java`
+  - `RockPaperSissors.java`
+
+
+**GCR Level-3 Strings Problems**
+
+- Solved **Level 3 GCR String questions**
+- Implemented complex string algorithms and performance-aware solutions
+
+📂 Reference:
+- [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️  
+  Includes:
+  - `Anagram.java`
+  - `CalculateBMI.java`
+  - `Calendar.java`
+  - `DeckOfCards.java`
+  - `FrequencyOfChars.java`
+  - `FrequencyOfCharsTwo.java`
+  - `FrequencyOfCharsThree.java`
+  - `NonRepeatingChar.java`
+  - `Palindrome.java`
+  - `UniqueChars.java`
+
+
+---
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -172,10 +244,13 @@ The following commit history reflects **actual work progression**:
 2025-12-20 28e1d62 [Prakhar Tripathi] - Refactored - Readme for Correct Logs
 2025-12-20 abf5ee7 [Prakhar Tripathi] Added - Level 1 Arrays Questions in GCR
 2025-12-20 bb2e75a [Prakhar Tripathi] Added - Level 2 Arrays Questions in GCR
+2025-12-20 4dd17b3 [Prakhar Tripathi] Refactored - Readme.md for the daily log
+2025-12-22 c684c5e [Prakhar Tripathi] Added - Level 1 Questions in String
+2025-12-22 90102ec [Prakhar Tripathi] Adde - Level 2 Questions of Strings in GCR
+2025-12-22 fb1b52a [Prakhar Tripathi] Added - Level 3 Questions of Strings in GCR
 ```
 
 To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
-
 
 ---
 
