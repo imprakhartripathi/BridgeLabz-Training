@@ -12,7 +12,7 @@
 <em>Designed for disciplined practice, transparent evaluation, and professional growth</em>
 </p>
 
-<hr width="65%" />
+<hr width="100%" />
 
 </div>
 
@@ -20,18 +20,18 @@
 <!--                    AUTHOR PROFILE                     -->
 <!-- ===================================================== -->
 
-<table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse; border:none;">
   <tr>
-    <td width="180" align="center">
+    <td width="180" align="center" style="border:none;">
       <img
         src="https://avatars.githubusercontent.com/u/120323432?v=4"
         alt="Prakhar Tripathi"
         width="150"
         height="150"
-        style="border-radius:50%;"
+        style="border-radius:50%; display:block;"
       />
     </td>
-    <td>
+    <td style="border:none;">
       <h2>Prakhar Tripathi</h2>
       <p>
         <strong>Final Year Computer Science Student · Software Engineer</strong><br/>
@@ -41,6 +41,7 @@
     </td>
   </tr>
 </table>
+
 
 ---
 
