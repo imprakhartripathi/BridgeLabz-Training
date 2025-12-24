@@ -4,13 +4,9 @@
 
 <div align="center">
 
-<h1>
-BridgeLabz Training Repository
-</h1>
+<h1>BridgeLabz Training Repository</h1>
 
-<h3>
-A Structured, Auditable, and Industry-Aligned Learning Workspace
-</h3>
+<h3>A Structured, Auditable, and Industry-Aligned Learning Workspace</h3>
 
 <p>
 <em>Designed for disciplined practice, transparent evaluation, and professional growth</em>
@@ -24,24 +20,27 @@ A Structured, Auditable, and Industry-Aligned Learning Workspace
 <!--                    AUTHOR PROFILE                     -->
 <!-- ===================================================== -->
 
-<div align="center">
-
-<img
-  src="https://avatars.githubusercontent.com/u/120323432?v=4"
-  alt="Prakhar Tripathi"
-  width="160"
-  style="border-radius:50%;"
-/>
-
-<h2>Prakhar Tripathi</h2>
-
-<p>
-<strong>Final Year Computer Science Student · Software Engineer</strong><br/>
-BridgeLabz Trainee — Core Java, Problem Solving, Backend and Frontend Foundation 
-<br>(Spring Boot + React and GenAI using Python)
-</p>
-
-</div>
+<table>
+  <tr>
+    <td width="180" align="center">
+      <img
+        src="https://avatars.githubusercontent.com/u/120323432?v=4"
+        alt="Prakhar Tripathi"
+        width="150"
+        height="150"
+        style="border-radius:50%;"
+      />
+    </td>
+    <td>
+      <h2>Prakhar Tripathi</h2>
+      <p>
+        <strong>Final Year Computer Science Student · Software Engineer</strong><br/>
+        BridgeLabz Trainee — Core Java, Problem Solving, Backend & Frontend Foundations<br/>
+        <em>(Spring Boot · React · GenAI with Python)</em>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
