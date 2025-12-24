@@ -12,7 +12,6 @@ All work is version-controlled with **incremental commits** to reflect real lear
 📌 **Branching Note:**
 - **Default branch:** `main`
 - **Active training branch:** `core-java-practice`  
-- All code links below are **hard-linked to `core-java-practice`** to ensure links work regardless of the branch where this README lives.
 
 ---
 
@@ -222,6 +221,82 @@ String manipulation, exception handling basics, and deep dive into Java string m
   - `Palindrome.java`
   - `UniqueChars.java`
 
+---
+
+### 📅 **24 Dec — GCR Methods Level 1, 2 and 3 & Scenario-Based Expansion**
+
+**Scenario Based Questions**
+
+- Implemented 2 additional scenario-based exercises for comprehensive real-world problem-solving:
+  - `ElectionBoothManager.java` — Voting system simulator: manages voter registration, validates voter eligibility, and tracks election results with voting counts.
+  - `MetroSmartCardManager.java` — Metro card balance system: handles card recharging, fare deductions, and balance tracking with transaction history.
+
+📂 Reference:
+- [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️  
+  Includes:
+  - `ElectionBoothManager.java`
+  - `MetroSmartCardManager.java`
+  - `MayaBMIFitnessTracker.java`
+  - `TheCoffeeCounterChronicles.java`
+
+**GCR Level-1 Methods Problems**
+
+- Solved **Level 1 GCR Methods questions**
+- Implemented foundational method design, parameter passing, and return types
+
+📂 Reference:
+- [`methods`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods) ↗️  
+  Includes:
+  - `CalculatorForBMI.java`
+  - `CalendarDisplay.java`
+  - `ChocolateDistribution.java`
+  - `CollinearPoints.java`
+  - `FactorOperations.java`
+  - `FactorsCalculator.java`
+  - `FootballTeamHeight.java`
+  - `FriendsComparison.java`
+  - `HandshakeCalculator.java`
+  - `LeapYearChecker.java`
+
+**GCR Level-2 Methods Problems**
+
+- Solved **Level 2 GCR Methods questions**
+- Implemented advanced method composition with multi-method coordination and complex logic
+
+📂 Reference:
+- [`methods`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods) ↗️  
+  Includes:
+  - `LineAndDistance.java`
+  - `MatrixOperations.java`
+  - `NumberAnalysis.java`
+  - `NumberCheckerVTwo.java`
+  - `NumberSignChecker.java`
+  - `OTPGenerator.java`
+  - `Quadratic.java`
+  - `RemainderAndQuotientCalculator.java`
+  - `SimpleInterestCalculator.java`
+  - `StudentScorecard.java`
+
+**GCR Level-3 Methods Problems**
+
+- Solved **Level 3 GCR Methods questions**
+- Implemented sophisticated method algorithms with recursive patterns and performance optimization
+
+📂 Reference:
+- [`methods`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods) ↗️  
+  Includes:
+  - `MatrixAdvancedOperations.java`
+  - `RandomNumberAnalysis.java`
+  - `SmallestAndLargestFinder.java`
+  - `SpringSeasonTwo.java`
+  - `StudentVoteChecker.java`
+  - `SumOfNaturalNumbers.java`
+  - `SumOfNaturalNumbersComparison.java`
+  - `TriangularParkRunCalculator.java`
+  - `TrigonometricCalculator.java`
+  - `UnitConvertor.java`
+  - `WindChillCalculator.java`
+  - `ZaraBonusCalculator.java`
 
 ---
 ## 🧾 Commit History (Chronological)
@@ -248,6 +323,11 @@ The following commit history reflects **actual work progression**:
 2025-12-22 c684c5e [Prakhar Tripathi] Added - Level 1 Questions in String
 2025-12-22 90102ec [Prakhar Tripathi] Adde - Level 2 Questions of Strings in GCR
 2025-12-22 fb1b52a [Prakhar Tripathi] Added - Level 3 Questions of Strings in GCR
+2025-12-22 9b4794f [Prakhar Tripathi] Refactored - Readme.md
+2025-12-24 8029b20 [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2025-12-24 de8a4b5 [Prakhar Tripathi] Added - Level 1 Questions of Methods in GCR
+2025-12-24 2034939 [Prakhar Tripathi] Added - Level 2 Questions of Methods in GCR (Q4, Q5, and Q6 Combined in One)
+2025-12-24 f13613d [Prakhar Tripathi] Added - Level 3 Questions of Methods in GCR (Questionns: 2, 3, 4, 5, and 6 are Combined)
 ```
 
 To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
