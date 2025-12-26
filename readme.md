@@ -299,6 +299,7 @@ String manipulation, exception handling basics, and deep dive into Java string m
   - `ZaraBonusCalculator.java`
 
 ---
+
 ### 📅 **26 Dec — EXTRAS String Questions**
 
 - Added extra string practice problems focusing on utility and edge-case handling (anagram checks, advanced palindrome checks, substring occurrences, removals, replacements, and case toggling).
@@ -318,6 +319,13 @@ String manipulation, exception handling basics, and deep dive into Java string m
   - `ReverseString.java`
   - `SubstringOccurrences.java`
   - `ToggleCase.java`
+
+**Refactors & Code Quality**
+
+- Performed small refactors across 4 files to suppress minor compiler warnings, correct small issues, and improve overall code quality and readability.
+
+📂 Reference:
+- Changes span utility and example files across the codebase; these are minor, non-functional improvements aimed at cleaner builds and better maintainability.
 
 ---
 ## 🧾 Commit History (Chronological)
