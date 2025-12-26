@@ -11,11 +11,13 @@ public class NPEDemo {
         generateHandledNPE();
     }
 
+    @SuppressWarnings("null")
     public static void generateNPE() {
         String text = null;
         System.out.println("Length: " + text.length());
     }
 
+    @SuppressWarnings("null")
     public static void generateHandledNPE() {
         String text = null;
         try {

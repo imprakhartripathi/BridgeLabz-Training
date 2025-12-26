@@ -11,10 +11,11 @@ public class EligibleToVote {
 
     public static void main(String[] args) {
         int[] ages = new int[10];
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the age of 10 students:");
-        for (int i = 0; i < 10; i++) {
-            ages[i] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the age of 10 students:");
+            for (int i = 0; i < 10; i++) {
+                ages[i] = sc.nextInt();
+            }
         }
         String[][] result = checkEligibility(ages);
         displayResult(result);

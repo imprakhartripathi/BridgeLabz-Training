@@ -29,18 +29,13 @@ public class TheCoffeeCounterChronicles {
                 
                 double pricePerCup;
                 switch (coffeeType) {
-                    case "espresso":
-                        pricePerCup = 99.00;
-                        break;
-                    case "latte":
-                        pricePerCup = 129.00;
-                        break;
-                    case "cappuccino":
-                        pricePerCup = 149.00;
-                        break;
-                    default:
+                    case "espresso" -> pricePerCup = 99.00;
+                    case "latte" -> pricePerCup = 129.00;
+                    case "cappuccino" -> pricePerCup = 149.00;
+                    default -> {
                         System.out.println("Invalid coffee type. Please try again.");
                         continue;
+                    }
                 }
                 
                 System.out.print("Enter quantity: ");
