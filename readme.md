@@ -299,6 +299,27 @@ String manipulation, exception handling basics, and deep dive into Java string m
   - `ZaraBonusCalculator.java`
 
 ---
+### 📅 **26 Dec — EXTRAS String Questions**
+
+- Added extra string practice problems focusing on utility and edge-case handling (anagram checks, advanced palindrome checks, substring occurrences, removals, replacements, and case toggling).
+
+📂 Reference:
+- [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️  
+  Includes (new EXTRAS examples):
+  - `AnagramCheck.java`
+  - `CompareStrings.java`
+  - `CountVowelsConsonants.java`
+  - `LongestWord.java`
+  - `MostFrequentCharacter.java`
+  - `PalindromeCheck.java`
+  - `RemoveDuplicates.java`
+  - `RemoveSpecificCharacter.java`
+  - `ReplaceWord.java`
+  - `ReverseString.java`
+  - `SubstringOccurrences.java`
+  - `ToggleCase.java`
+
+---
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -328,6 +349,8 @@ The following commit history reflects **actual work progression**:
 2025-12-24 de8a4b5 [Prakhar Tripathi] Added - Level 1 Questions of Methods in GCR
 2025-12-24 2034939 [Prakhar Tripathi] Added - Level 2 Questions of Methods in GCR (Q4, Q5, and Q6 Combined in One)
 2025-12-24 f13613d [Prakhar Tripathi] Added - Level 3 Questions of Methods in GCR (Questionns: 2, 3, 4, 5, and 6 are Combined)
+2025-12-24 57b8824 [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2025-12-26 950ff35 [Prakhar Tripathi] Added - "EXTRAS" String Questions in GCR
 ```
 
 To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
