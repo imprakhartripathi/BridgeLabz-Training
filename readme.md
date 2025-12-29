@@ -373,6 +373,17 @@ Deep dive into Java built-in methods and error scenarios.
 📂 Reference:
 - [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️
 
+
+**Scenario-Based: Employee Wage & Line Comparison**
+
+- Added solutions for Employee Wage Computation and Line Comparison problems to the scenario-based set.
+
+📂 Reference:
+- [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️
+  Includes:
+  - `EmployeeWageComputation.java`
+  - `LineComparison.java`
+
 ---
 ## 🧾 Commit History (Chronological)
 
@@ -412,6 +423,8 @@ The following commit history reflects **actual work progression**:
 2025-12-29 ddb8cb6 [Prakhar Tripathi] Added - "Built-In Function" Questions from Sheet 1 in GCR
 2025-12-29 15cecfd [Prakhar Tripathi] Added - "Built-In Function" Questions from Sheet 2 in GCR
 2025-12-29 0e96233 [Prakhar Tripathi] Added - 4 New Scenario Based Questions
+2025-12-29 9c2e9a2 [Prakhar Tripathi] - Refactored Readme.md for the daily log updation
+2025-12-29 5df7db8 [Prakhar Tripathi] Added - Employee Wage Computation and Line Comparison Problems' Solution in Scenario Based
 ```
 
 To Get This Log Use: 
