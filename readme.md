@@ -153,7 +153,7 @@ Java basics, GitHub workflow, structured problem-solving, and progressive diffic
 ---
 
 
-## **Week 2 — String Manipulation & Exception Handling**
+## **Week 2 — String Manipulation, Exception Handling and Java Methods**
 
 📅 *Started: 22-Dec-2025 (Monday)*
 
@@ -300,7 +300,9 @@ String manipulation, exception handling basics, and deep dive into Java string m
 
 ---
 
-### 📅 **26 Dec — EXTRAS String Questions**
+### 📅 **26 Dec — String Questions & Scenario Based**
+
+**EXTRAS - String Questions**
 
 - Added extra string practice problems focusing on utility and edge-case handling (anagram checks, advanced palindrome checks, substring occurrences, removals, replacements, and case toggling).
 
@@ -326,6 +328,50 @@ String manipulation, exception handling basics, and deep dive into Java string m
 
 📂 Reference:
 - Changes span utility and example files across the codebase; these are minor, non-functional improvements aimed at cleaner builds and better maintainability.
+
+
+**Readme & Code Refactors**
+
+- Refactored `readme.md` entries to improve clarity and daily-log consistency.
+- Performed small refactors across 4 files to suppress minor compiler warnings and improve code quality.
+
+📂 Reference:
+- [`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase)
+
+
+**Scenario-Based Work (committed 27 Dec)**
+
+- Implemented 2 scenario-based exercises (work done on 2025-12-26; committed 2025-12-27).
+
+📂 Reference:
+- [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️
+
+---
+
+
+## **Week 2 — Built-in Functions**
+
+📅 *Started: 29-Dec-2025 (Monday)*
+
+**Focus:**  
+Deep dive into Java built-in methods and error scenarios.
+
+---
+
+### 📅 **29 Dec — Built-In Function Questions (Sheet 1 & Sheet 2)**
+
+- Added built-in function practice problems from Sheet 1 and Sheet 2 into the GCR collection.
+
+📂 Reference:
+- [`built-in-functions`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/built-in-functions) ↗️
+
+
+**Scenario-Based Expansion**
+
+- Added 4 new scenario-based questions to broaden real-world practice and I/O handling.
+
+📂 Reference:
+- [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️
 
 ---
 ## 🧾 Commit History (Chronological)
@@ -359,9 +405,19 @@ The following commit history reflects **actual work progression**:
 2025-12-24 f13613d [Prakhar Tripathi] Added - Level 3 Questions of Methods in GCR (Questionns: 2, 3, 4, 5, and 6 are Combined)
 2025-12-24 57b8824 [Prakhar Tripathi] Refactored - Readme.md for daily log updation
 2025-12-26 950ff35 [Prakhar Tripathi] Added - "EXTRAS" String Questions in GCR
+2025-12-26 fe8c80d [Prakhar Tripathi] Refactored - Readme.md for log updation
+2025-12-26 7fa8ccc [Prakhar Tripathi] Refactored - 4 Files for minor warning supression/correction and improving code quality
+2025-12-26 e2f787f [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2025-12-27 e47edd8 [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2025-12-29 ddb8cb6 [Prakhar Tripathi] Added - "Built-In Function" Questions from Sheet 1 in GCR
+2025-12-29 15cecfd [Prakhar Tripathi] Added - "Built-In Function" Questions from Sheet 2 in GCR
+2025-12-29 0e96233 [Prakhar Tripathi] Added - 4 New Scenario Based Questions
 ```
 
-To Get This Log Use: ```git log --pretty=format:"%ad %h %s" --date=short --reverse```
+To Get This Log Use: 
+```bash
+git log --pretty=format:"%ad %h %s" --date=short --reverse
+```
 
 ---
 
