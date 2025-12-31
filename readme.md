@@ -19,12 +19,13 @@ All work is version-controlled with **incremental commits** to reflect real lear
 
 The codebase is organized by concept for clarity and scalability:
 
-- **[`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase) ↗️**  
-  Core Java practice aligned with GCR curriculum
+- **[`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase) ↗️**  Core Java practice aligned with GCR curriculum
   - [`programming-elements`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements) ↗️
   - [`control-flow`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow) ↗️
   - [`arrays`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays) ↗️
   - [`strings`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings) ↗️
+  - [`methods`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods) ↗️
+  - [`built-in-functions`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/built-in-functions) ↗️
 
 - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) ↗️**  
   LeetCode-style problems for logic building.
