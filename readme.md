@@ -11,7 +11,7 @@ All work is version-controlled with **incremental commits** to reflect real lear
 
 📌 **Branching Note:**
 - **Default branch:** `main`
-- **Active training branch:** `core-java-practice`  
+- **This Branch:** `core-java-practice`  
 
 ---
 
@@ -349,12 +349,12 @@ String manipulation, exception handling basics, and deep dive into Java string m
 ---
 
 
-## **Week 2 — Built-in Functions**
+## **Week 3 — Built-in Functions and Scenario Based Questions**
 
 📅 *Started: 29-Dec-2025 (Monday)*
 
 **Focus:**  
-Deep dive into Java built-in methods and error scenarios.
+Deep dive into Java built-in methods and problems based on real life scenarios.
 
 ---
 
@@ -383,6 +383,17 @@ Deep dive into Java built-in methods and error scenarios.
   Includes:
   - `EmployeeWageComputation.java`
   - `LineComparison.java`
+
+---
+
+### 📅 **30 Dec — Scenario Based Questions**
+
+- Added solution for Snake & Ladder problem to the scenario-based set.
+
+📂 Reference:
+- [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/scenario-based) ↗️
+  Includes:
+  - `SnakeAndLadderGame.java`
 
 ---
 ## 🧾 Commit History (Chronological)
@@ -425,6 +436,8 @@ The following commit history reflects **actual work progression**:
 2025-12-29 0e96233 [Prakhar Tripathi] Added - 4 New Scenario Based Questions
 2025-12-29 9c2e9a2 [Prakhar Tripathi] - Refactored Readme.md for the daily log updation
 2025-12-29 5df7db8 [Prakhar Tripathi] Added - Employee Wage Computation and Line Comparison Problems' Solution in Scenario Based
+2025-12-29 21de426 [Prakhar Tripathi] Refactored - Readme.md for log updation
+2025-12-30 b4385ce [Prakhar Tripathi] Added - Snake & Ladder Problem's Solution in Scenario Based
 ```
 
 To Get This Log Use: 
