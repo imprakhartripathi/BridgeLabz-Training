@@ -21,12 +21,13 @@ The codebase is organized by concept for clarity and scalability:
 
 - **[`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase) ↗️**  Java OOPs practice aligned with GCR curriculum
   - [`class-and-objects`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/class-and-objects) ↗️ Practice Files for Classes and Objects
+  - [`java-oops-basics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-basics) ↗️ Practice Files for Java OOPs Basics
 
 <!-- - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/leet-code-codebase) ↗️**  
-  LeetCode-style problems for logic building.
+  LeetCode-style problems for logic building. -->
 
 - **[`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️**  
-  Scenario-driven logical and conditional problems -->
+  Scenario-driven logical and conditional problems
 
 ---
 
@@ -61,22 +62,55 @@ Includes:
 
 Checkout Files at: [`class-and-objects`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/class-and-objects) ↗️
 
-<!-- ---
+---
 
-### 📅 **31 Dec —**
+### 📅 **31 Dec — Java Constructors, Instance vs. Class Variables, Access Modifiers**
 
-- GitHub repository structuring
-- Folder segregation by topic (GCR, LeetCode, scenarios)
-- Naming conventions for files and classes
-- Initial GCR and LeetCode problems committed
+**Questions on Java Constructors, Instance vs. Class Variables, Access Modifiers**
 
-📌 Key folders introduced:
-- [`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase) ↗️
-- [`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase) ↗️
- -->
+Includes:
+- `BankingApp.java`
+- `CarRental.java`
+- `CompanyApp.java`
+- `Course.java`
+- `DemoBook.java`
+- `DemoCircle.java`
+- `HotelBookingDemo.java`
+- `LibraryApp.java`
+- `LibrarySystemApp.java`
+- `Person.java`
+- `Product.java`
+- `UniversityApp.java`
+- `Vehicle.java`
+
+Checkout Files at: [`java-oops-basics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-basics) ↗️
 
 ---
 
+### 📅 **1 Jan — this, static, final keywords and instanceof operator & Scenario Based Questions**
+
+**Level 1 Lab Practice on this, static, final keywords and instanceof operator**
+
+Includes:
+- `BankAccount.java`
+- `Book.java`
+- `Employee.java`
+- `Patient.java`
+- `ProductDemo.java`
+- `Student.java`
+- `VehicleReg.java`
+
+Checkout Files at: [`java-oops-basics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-basics) ↗️
+
+**2 Scenario Based Questions**
+
+Includes:
+- `SentenceFormatter.java`
+- `TextAnalyzer.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+---
 
 ## 🧾 Commit History (Chronological)
 
@@ -88,6 +122,10 @@ The following commit history reflects **actual work progression**:
 2025-12-30 044cb35 [Prakhar Tripathi] Publishing New Branch "OOPS"
 2025-12-30 c3d62c4 [Prakhar Tripathi] Added - Level 1 Questions of "Class & Objects" in GCR
 2025-12-30 e3a20da [Prakhar Tripathi] Added - Level 2 Questions of "Class & Objects" in GCR
+2025-12-31 1092e89 [Prakhar Tripathi] Refactored - Readme.md for log updation
+2025-12-31 d1e868e [Prakhar Tripathi] Added - "Submission of Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice" Questions in "java-oops-basics" folder in GCR
+2026-01-01 ea72e62 [Prakhar Tripathi] Added - Questions from "Submission of this, static, final key words and instanceof operator Level 1 Lab Practice" in the folder "java-oops-basics" in GCR
+2026-01-01 77351c1 [Prakhar Tripathi] Added - 2 Scenario Based Questions
 ```
 
 To Get This Log Use: 
