@@ -1,10 +1,10 @@
-public class BankAccount {
+public class BankAcc {
 
     String accountHolder;
     String accountNumber;
     double balance;
 
-    public BankAccount(String accountHolder, String accountNumber, double balance) {
+    public BankAcc(String accountHolder, String accountNumber, double balance) {
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -32,7 +32,7 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-        BankAccount acc = new BankAccount(
+        BankAcc acc = new BankAcc(
                 "State of Chennai",
                 "ACC001",
                 700

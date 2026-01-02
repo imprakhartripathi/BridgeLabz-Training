@@ -1,4 +1,4 @@
-public class Student {
+public class StudentDemo {
     String name, rollNumber;
     double m1, m2, m3;
 
@@ -24,14 +24,14 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student();
+        StudentDemo s1 = new StudentDemo();
         s1.name = "Thamarai";
         s1.rollNumber = "ECE001";
         s1.m1 = 80;
         s1.m2 = 70;
         s1.m3 = 75;
 
-        Student s2 = new Student();
+        StudentDemo s2 = new StudentDemo();
         s2.name = "Kannan";
         s2.rollNumber = "CSC002";
         s2.m1 = 60;

@@ -2,7 +2,7 @@
 public class UniversityApp {
 
     public static void main(String[] args) {
-        PostgraduateStudent ps = new PostgraduateStudent();
+        PostgraduateDemoStudent ps = new PostgraduateDemoStudent();
         ps.rollNumber = 101;
         ps.name = "Alice";
         ps.setCGPA(8.7);
@@ -12,7 +12,7 @@ public class UniversityApp {
     }
 }
 
-class Student {
+class DemoStudent {
     public int rollNumber;
     protected String name;
     private double CGPA;
@@ -26,7 +26,7 @@ class Student {
         return CGPA;
     }
 }
-class PostgraduateStudent extends Student {
+class PostgraduateDemoStudent extends DemoStudent {
     void display() {
         System.out.println("Roll Number: " + rollNumber + " Name: " + name);
     }

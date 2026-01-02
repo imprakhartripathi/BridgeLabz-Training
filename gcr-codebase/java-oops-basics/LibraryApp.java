@@ -2,19 +2,20 @@ public class LibraryApp {
 
     public static void main(String[] args) {
 
-        Book b = new Book();
-        b.borrowBook();
-        b.borrowBook();
+        Book b = new Book("Clean Code", "Robert C. Martin", 499.99);
+
+        b.borrowBook(); 
+        b.borrowBook(); 
 
         b.display();
     }
 }
 
 class Book {
-    String title;
-    String author;
-    double price;
-    boolean available;
+    private String title;
+    private String author;
+    private double price;
+    private boolean available;
 
     public Book() {
         this("Unknown", "Unknown", 0.0);
@@ -30,14 +31,16 @@ class Book {
     void borrowBook() {
         if (available) {
             available = false;
-            System.out.println("Book borrowed");
+            System.out.println("Book borrowed successfully.");
         } else {
-            System.out.println("Not available");
+            System.out.println("Book is not available.");
         }
     }
 
     void display() {
-    System.out.println("Book: " +title + " by " + author + " - $" + price);
-}
-
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Price: ₹" + price);
+        System.out.println("Status: " + (available ? "Available" : "Borrowed"));
+    }
 }
