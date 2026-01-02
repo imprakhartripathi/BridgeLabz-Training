@@ -112,6 +112,33 @@ Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/Bridg
 
 ---
 
+### 📅 **2 Jan — Object Oriented Design Principles & Additional Scenario Based Questions**
+
+**Object Oriented Design Principles**
+
+Checkout Files at: [`uml-diagrams`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/uml-diagrams) ↗️
+
+**2 Additional Scenario Based Questions**
+
+Includes:
+- `StudentScoreManager.java`
+- `TemperatureAnalyzer.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+
+**Additional 2 Scenario Based Questions (commit 25792be)**
+
+Another pair of scenario-based problems were added to the repository on 2026-01-02 (see commit 25792be in the commit history).
+
+Includes:
+- `LibraryManagementSystem.java`
+- `EduQuiz.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -126,6 +153,11 @@ The following commit history reflects **actual work progression**:
 2025-12-31 d1e868e [Prakhar Tripathi] Added - "Submission of Java Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice" Questions in "java-oops-basics" folder in GCR
 2026-01-01 ea72e62 [Prakhar Tripathi] Added - Questions from "Submission of this, static, final key words and instanceof operator Level 1 Lab Practice" in the folder "java-oops-basics" in GCR
 2026-01-01 77351c1 [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2026-01-01 67ebb2d [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2026-01-02 41184e6 [Prakhar Tripathi] Added - Submission of Object Oriented Design Principles in "uml-diagrams" folder in GCR
+2026-01-02 6368700 [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2026-01-02 cdb2e0b [Prakhar Tripathi] Refactored - GCR Java files to not have conflicts
+2026-01-02 25792be [Prakhar Tripathi] Added - 2 Scenario Based Questions
 ```
 
 To Get This Log Use: 
