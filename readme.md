@@ -139,6 +139,53 @@ Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/Bridg
 
 ---
 
+### 📅 **5 Jan — Inheritance Submission & Scenario Based Questions**
+
+**Submission of Inheritance Questions (Late — due on 3rd Jan)**
+
+Added - "Submission of Inheritance" Questions in GCR. Note: this submission is late (was due on 3rd Jan).
+Includes:
+- `AnimalHierarchy.java`
+- `BankAccounts.java`
+- `BookAndAuthor.java`
+- `CourseHierarchyDemo.java`
+- `EMS.java`
+- `OrderSystem.java`
+- `RestrauntSystemm.java`
+- `SchoolSystemDemo.java`
+- `SmartHomeDemo.java`
+- `VehicleHybridDemo.java`
+- `VehicleSystem.java`
+
+Checkout Files at: [`inheritance`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/inheritance) ↗️
+
+**Scenario Based Questions (Added)**
+
+Includes:
+- `BankAccountSBApp.java`
+- `CafeteriaMenuApp.java`
+- `InvoiceGeneratorApp.java`
+- `MathUtilityApp.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/CodeSpace/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+---
+
+**Submission of Encapsulation, Polymorphism, Interface and Abstract Class (Added)**
+
+Includes:
+- `BankingSystem.java`
+- `ECommercePlatform.java`
+- `EmployeeManagementSystem.java`
+- `FoodDeliverySystem.java`
+- `HospitalManagementSystem.java`
+- `LibraryManagementSystem.java`
+- `RideHailingApplicationOOPS.java`
+- `VehicleRentalSystem.java`
+
+Checkout Files at: [`java-oops-intermediate`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-intermediate) ↗️
+
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -158,6 +205,10 @@ The following commit history reflects **actual work progression**:
 2026-01-02 6368700 [Prakhar Tripathi] Added - 2 Scenario Based Questions
 2026-01-02 cdb2e0b [Prakhar Tripathi] Refactored - GCR Java files to not have conflicts
 2026-01-02 25792be [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2026-01-02 37388fe [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2026-01-05 7f8f34f [Prakhar Tripathi] Added - "Submission of Inheritance " Questions in GCR
+2026-01-05 895cc75 [Prakhar Tripathi] Added - 4 Scenario Based Questions
+2026-01-05 90935e8 [Prakhar Tripathi] Added - "Submission of Encapsulation, Polymorphism, Interface and Abstract Class" in folder "java-oops-intermediate" in GCR
 ```
 
 To Get This Log Use: 
