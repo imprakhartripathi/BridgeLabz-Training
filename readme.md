@@ -21,10 +21,13 @@ The codebase is organized by concept for clarity and scalability:
 
 - **[`gcr-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase) ↗️**  Java OOPs practice aligned with GCR curriculum
   - [`class-and-objects`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/class-and-objects) ↗️ Practice Files for Classes and Objects
+  - [`inheritance`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/inheritance) ↗️ Practice Files for Inheritance examples
   - [`java-oops-basics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-basics) ↗️ Practice Files for Java OOPs Basics
+  - [`java-oops-intermediate`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-intermediate) ↗️ Intermediate OOPs: encapsulation, polymorphism, interfaces, abstract classes
+  - [`uml-diagrams`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/uml-diagrams) ↗️ UML & design references
 
-<!-- - **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/leet-code-codebase) ↗️**  
-  LeetCode-style problems for logic building. -->
+- **[`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/leet-code-codebase) ↗️**  
+  LeetCode-style problems for logic building.
 
 - **[`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️**  
   Scenario-driven logical and conditional problems
@@ -185,6 +188,32 @@ Includes:
 
 Checkout Files at: [`java-oops-intermediate`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/java-oops-intermediate) ↗️
 
+---
+
+### 📅 **6 Jan — 5 Scenario Based Questions & 4 LeetCode Questions**
+
+**5 Scenario Based Questions (Added)**
+
+Includes:
+- `LibraryManagementSystemTwo.java`
+- `PhoneContactOrganizer.java`
+- `QuizResultProcessor.java`
+- `StudentReportGenerator.java`
+- `StudentScoreAnalyzer.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+**4 LeetCode Questions (Added)**
+
+Includes:
+- `BestTimeToBuySellStock.java`
+- `ContainsDuplicate.java`
+- `FizzBuzz.java`
+- `MergeSortedArrays.java`
+
+Checkout Files at: [`leet-code-codebase`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/leet-code-codebase) ↗️
+
+---
 
 ## 🧾 Commit History (Chronological)
 
@@ -209,6 +238,9 @@ The following commit history reflects **actual work progression**:
 2026-01-05 7f8f34f [Prakhar Tripathi] Added - "Submission of Inheritance " Questions in GCR
 2026-01-05 895cc75 [Prakhar Tripathi] Added - 4 Scenario Based Questions
 2026-01-05 90935e8 [Prakhar Tripathi] Added - "Submission of Encapsulation, Polymorphism, Interface and Abstract Class" in folder "java-oops-intermediate" in GCR
+2026-01-05 e763a6c [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2026-01-06 dcc7437 [Prakhar Tripathi] Added - 5 Scenario Based Questions
+2026-01-06 7bd3dc9 [Prakhar Tripathi] Added - 4 Leetcode Questions
 ```
 
 To Get This Log Use: 
