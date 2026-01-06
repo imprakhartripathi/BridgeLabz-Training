@@ -67,9 +67,10 @@ The repository follows a **role-based branching strategy**, where each branch ha
 
 | Branch | Role | Stability |
 |------|-----|----------|
-| `main` | Documentation & reference baseline | Stable |
-| `core-java-practice` | Active development & learning | Volatile |
-| `reviews` | Evaluation & performance tracking | Controlled |
+| `main` | Documentation & Reference Baseline | Stable |
+| `core-java-practice` | Active Development & Learning | Volatile |
+| `oops` | Active Development & Learning | Volatile |
+| `reviews` | Evaluation & Performance Tracking | Controlled |
 
 ---
 
@@ -89,7 +90,7 @@ Acts as the **canonical entry point** for reviewers, mentors, and auditors.
 
 ---
 
-### `core-java-practice` — Execution Layer (Active)
+### `core-java-practice` — Execution Layer
 
 **Purpose**  
 Dedicated workspace for **hands-on coding and daily practice**.
@@ -104,13 +105,28 @@ Dedicated workspace for **hands-on coding and daily practice**.
 
 ---
 
+### `oops` — Execution Layer
+
+**Purpose**  
+Dedicated workspace for **hands-on coding and daily practice**.
+
+**Contains**
+- Java-OOPs implementations  
+- Concept-wise programs  
+- Practice problems  
+- Incremental commits reflecting real learning progression  
+
+> This branch intentionally evolves fast and mirrors the learning curve.
+
+---
+
 ### `reviews` — Evaluation & Feedback Layer
 
 **Purpose**  
 Supports **formal review cycles and performance monitoring**.
 
 **Contains**
-- Weekly review notes  
+- Review notes  
 - Trainer feedback  
 - Code review checkpoints  
 - Assessment artifacts  
@@ -136,18 +152,24 @@ config:
 ---
 flowchart TB
     Main(["main"]) -.- MainCtx["Central Hub & Entry Point"]
-    Main --> Reviews(["reviews"]) & Core(["core-java-practice"])
-    Core -.- CoreCtx["Daily Practice Branch"]
-    Reviews -.- ReviewsCtx["Weekly Evaluation Branch"]
+
+    Main --> Core(["core-java-practice"])
+    Main --> OOPS(["oops"])
+    Main --> Reviews(["reviews"])
+
+    Core -.- CoreCtx["Daily Coding Problem"]
+    OOPS -.- OOPSCtx["Daily Coding Problem"]
+    Reviews -.- ReviewsCtx["Evaluation Branch"]
 
     MainCtx@{ shape: rounded}
     CoreCtx@{ shape: rounded}
+    OOPSCtx@{ shape: rounded}
     ReviewsCtx@{ shape: rounded}
+
     classDef branch fill:#ffffff,stroke:#555555
-    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
     classDef context fill:#ffffff, stroke:#999999, stroke-dasharray:4 4
-    classDef hub fill:#BBDEFB, stroke:#000000, stroke-width:2px
     style Main fill:transparent
+
 ```
 
 **Explanation**
@@ -167,19 +189,22 @@ config:
   look: handDrawn
 ---
 flowchart LR
-    A["Daily Learning / Assignments / GCR Questions"] --> B(["core-java-practice"])
-    C["Weekly Questions / Tasks / Evaluations"] --> D(["reviews"])
-    E["Entry Point / Branch Management"] --> F(["main"])
+    A["Core Java Questions"] --> B(["core-java-practice"])
+    G["OOP Concepts + Ques"] --> H(["oops"])
+    C["Evaluations"] --> D(["reviews"])
+    E["Entry Point"] --> F(["main"])
 
     A@{ shape: card}
+    G@{ shape: card}
     C@{ shape: card}
     E@{ shape: card}
+
 ```
 
 **Explanation**
 
-* **Daily practice** and instructor-driven tasks are implemented in `core-java-practice`
-* **Weekly reviews** include:
+* **Daily practice** and instructor-driven tasks are implemented in `core-java-practice` `oops`
+* **Reviews** include:
 
   * Evaluation questions
   * Assigned problems
@@ -204,7 +229,7 @@ This repository is designed to be **reviewed, not just run**.
 
 ## Notes for Reviewers & Mentors
 
-* For active code: switch to `core-java-practice`
+* For active code: switch to `core-java-practice` `oops`
 * For evaluations and feedback: refer to `reviews`
 * For repository understanding and context: stay on `main`
 
