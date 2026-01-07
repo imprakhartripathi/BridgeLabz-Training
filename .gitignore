@@ -1,1 +1,8 @@
 .vscode
+.idea
+*.log
+*.swp
+coverage/
+*.bak
+*.tmp       
+*.class
