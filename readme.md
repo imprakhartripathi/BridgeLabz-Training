@@ -215,6 +215,54 @@ Checkout Files at: [`leet-code-codebase`](https://github.com/imprakhartripathi/B
 
 ---
 
+### 📅 **7 Jan — 2 Advanced Scenario Based Questions (Complex Systems)**
+
+**2 Advanced Scenario Based Questions - Multi-class Systems**
+
+Includes:
+- **`car_booking_system/`** — Complete cab booking application with ride management
+  - `CabBookingSystem.java` (Main)
+  - `Driver.java`
+  - `User.java`
+  - `Ride.java`
+  - `RideService.java`
+  - `FareCalculator.java`, `NormalFareCalculator.java`, `PeakFareCalculator.java`
+  - `NoDriverAvailableException.java`
+
+- **`online_banking_system/`** — Complete online banking platform with account management
+  - `OnlineBankingSystem.java` (Main)
+  - `Account.java`, `SavingsAccount.java`, `CurrentAccount.java`
+  - `BankService.java`, `BankServiceImpl.java`
+  - `TransactionTask.java`
+  - `InsufficientBalanceException.java`
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+**How to Run These Scenario-Based Projects:**
+
+Both projects use **multi-class architecture** with main classes that handle interactive menu-driven operation:
+
+```bash
+# 1️⃣ Cab Booking System (Navigate to workspace root)
+javac scenario-based/car_booking_system/*.java
+java -cp scenario-based car_booking_system.CabBookingSystem
+
+# 2️⃣ Online Banking System (Navigate to workspace root)
+javac scenario-based/online_banking_system/*.java
+java -cp scenario-based online_banking_system.OnlineBankingSystem
+```
+
+**Or compile & run from IDE:**
+- Open **`CabBookingSystem.java`** or **`OnlineBankingSystem.java`** in your IDE
+- Right-click → Run (IntelliJ/Eclipse)
+- Follow the interactive menu prompts
+
+**Key Features:**
+- ✅ **Cab Booking:** User registration, ride booking, fare calculation (peak/normal), driver assignment
+- ✅ **Online Banking:** Account creation (Savings/Current), deposits, withdrawals, transaction history, balance inquiry
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -241,6 +289,8 @@ The following commit history reflects **actual work progression**:
 2026-01-05 e763a6c [Prakhar Tripathi] Refactored - Readme.md for daily log updation
 2026-01-06 dcc7437 [Prakhar Tripathi] Added - 5 Scenario Based Questions
 2026-01-06 7bd3dc9 [Prakhar Tripathi] Added - 4 Leetcode Questions
+2026-01-06 c8945af [Prakhar Tripathi] Refactored - Readme.md for daily log updation
+2026-01-07 b03845d [Prakhar Tripathi] Added - 2 Scenario Based Questions | Refactored - GitIgnore
 ```
 
 To Get This Log Use: 

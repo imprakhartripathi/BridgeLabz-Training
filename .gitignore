@@ -6,3 +6,5 @@ coverage/
 *.bak
 *.tmp       
 *.class
+out/
+BridgeLabz-Training.iml
