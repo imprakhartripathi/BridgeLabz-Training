@@ -1,10 +1,10 @@
-public class Vehicle {
+public class VehicleOOPSD {
     private String ownerName;
     private String vehicleType;
 
     private static double registrationFee = 5000;
 
-    public Vehicle(String ownerName, String vehicleType) {
+    public VehicleOOPSD(String ownerName, String vehicleType) {
         if (ownerName == null || ownerName.isBlank()) {
             throw new IllegalArgumentException("Owner name is required");
         }
@@ -30,8 +30,8 @@ public class Vehicle {
     }
 
     public static void main(String[] args) {
-        Vehicle.updateRegistrationFee(6000);
-        Vehicle v = new Vehicle("Sam", "Car");
+        VehicleOOPSD.updateRegistrationFee(6000);
+        VehicleOOPSD v = new VehicleOOPSD("Sam", "Car");
         v.displayVehicleDetails();
     }
 }

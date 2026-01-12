@@ -1,14 +1,14 @@
-class Person {
+class PersonOOPSD {
     protected String name;
     protected int age;
 
-    Person(String name, int age) {
+    PersonOOPSD(String name, int age) {
         this.name = name;
         this.age = age;
     }
 }
 
-class Teacher extends Person {
+class Teacher extends PersonOOPSD {
     private String subject;
 
     Teacher(String name, int age, String subject) {
@@ -21,10 +21,10 @@ class Teacher extends Person {
     }
 }
 
-class Student extends Person {
+class StudentOOPSD extends PersonOOPSD {
     private String grade;
 
-    Student(String name, int age, String grade) {
+    StudentOOPSD(String name, int age, String grade) {
         super(name, age);
         this.grade = grade;
     }
@@ -34,7 +34,7 @@ class Student extends Person {
     }
 }
 
-class Staff extends Person {
+class Staff extends PersonOOPSD {
     private String department;
 
     Staff(String name, int age, String department) {
@@ -50,7 +50,7 @@ class Staff extends Person {
 public class SchoolSystemDemo {
     public static void main(String[] args) {
         Teacher t = new Teacher("Mr. Sharma", 40, "Maths");
-        Student s = new Student("Rahul", 16, "10th");
+        StudentOOPSD s = new StudentOOPSD("Rahul", 16, "10th");
         Staff st = new Staff("Anita", 35, "Administration");
 
         t.displayRole();
