@@ -199,6 +199,100 @@ java -cp gcr-codebase sorting.Driver
 
 ---
 
+### 📅 **16 Jan — Linear and Binary Search, String Manipulation & I/O**
+
+**Search Algorithms, String Handling, and File I/O Implementations**
+
+Comprehensive implementation of linear and binary search algorithms, StringBuffer/StringBuilder utilities, and file handling operations.
+
+---
+
+**Linear & Binary Search**
+
+Checkout Files at: [`gcr-codebase/searching`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/searching) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/LinearSearchWordInSentence.java` - Linear search to find word positions in a sentence
+- `impl/LinearSearchFirstNegative.java` - Linear search to find first negative number in array
+- `impl/BinarySearch2DMatrix.java` - Binary search in a 2D sorted matrix
+- `impl/BinarySearchFirstLastOccurrence.java` - Binary search to find first and last occurrence of element
+- `impl/BinarySearchPeakElement.java` - Binary search to find peak element in array
+- `impl/BinarySearchRotationPoint.java` - Binary search to find rotation point in rotated sorted array
+- `impl/ChallengeSearch.java` - Challenge problem for search algorithm optimization
+
+**How to Run:**
+```bash
+javac gcr-codebase/searching/*.java gcr-codebase/searching/impl/*.java
+java -cp gcr-codebase searching.Driver
+```
+
+---
+
+**StringBuffer Implementations**
+
+Checkout Files at: [`gcr-codebase/stringbuffer`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/stringbuffer) ↗️
+
+**Files Included:**
+- `StringBufferConcatenate.java` - String concatenation using StringBuffer
+- `StringBufferVsBuilderBenchmark.java` - Performance comparison between StringBuffer and StringBuilder
+
+**How to Run:**
+```bash
+javac gcr-codebase/stringbuffer/*.java
+java -cp gcr-codebase stringbuffer.ClassName
+```
+
+---
+
+**StringBuilder Implementations**
+
+Checkout Files at: [`gcr-codebase/stringbuilder`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/stringbuilder) ↗️
+
+**Files Included:**
+- `StringBuilderReverse.java` - String reversal using StringBuilder
+- `StringBuilderRemoveDuplicates.java` - Remove duplicate characters from string
+
+**How to Run:**
+```bash
+javac gcr-codebase/stringbuilder/*.java
+java -cp gcr-codebase stringbuilder.ClassName
+```
+
+---
+
+**FileReader Operations**
+
+Checkout Files at: [`gcr-codebase/filereader`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/filereader) ↗️
+
+**Files Included:**
+- `FileReaderReadLines.java` - Read and display all lines from a file
+- `FileReaderWordCount.java` - Count words in a file
+
+**How to Run:**
+```bash
+javac gcr-codebase/filereader/*.java
+java -cp gcr-codebase filereader.ClassName
+```
+
+---
+
+**InputStreamReader Operations**
+
+Checkout Files at: [`gcr-codebase/inputstreamreader`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/inputstreamreader) ↗️
+
+**Files Included:**
+- `InputStreamReaderConsoleToFile.java` - Read from console and write to file
+- `InputStreamReaderReadFile.java` - Read content from file using InputStreamReader
+
+**How to Run:**
+```bash
+javac gcr-codebase/inputstreamreader/*.java
+java -cp gcr-codebase inputstreamreader.ClassName
+```
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -212,6 +306,8 @@ The following commit history reflects **actual work progression**:
 2026-01-12 470e0d6 [Prakhar Tripathi] Added - Hospital Management System (Patient, Doctor, Bill classes with OOPs implementation)
 2026-01-14 5a04eba [Prakhar Tripathi] Added - Stack, Queue, HashMap and Hashing Function implementations in GCR
 2026-01-14 eb0bd53 [Prakhar Tripathi] Added - Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick, Heap, Counting Sort) in GCR
+2026-01-16 bef1fad [Prakhar Tripathi] Refactored - Readme.md
+2026-01-16 2a0b304 [Prakhar Tripathi] Added - "Submission of Linear and Binary Search" in GCR
 ```
 
 To Get This Log Use: 
