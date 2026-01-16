@@ -263,6 +263,140 @@ java -cp scenario-based online_banking_system.OnlineBankingSystem
 
 ---
 
+### 📅 **12 Jan — 9 Advanced Scenario Based Systems (Multi-layer Architecture)**
+
+**9 Complex Scenario Based Systems with Multi-layer Architecture**
+
+Comprehensive implementations using layered architecture with proper separation of concerns (Model, DAO, Service, Driver).
+
+**Files Included:**
+
+- **`scenario-based/ecommerce/`** — E-commerce payment system with multiple payment methods
+  - `Driver.java` (Main)
+  - `Customer.java`, `Product.java`, `Order.java`
+  - `Payment.java`, `CardPayment.java`, `UPIPayment.java`, `WalletPayment.java`
+  - `PaymentFailedException.java`
+
+- **`scenario-based/exam/`** — Exam evaluation system with descriptive and objective strategies
+  - `Driver.java` (Main)
+  - `Exam.java`, `Student.java`, `Question.java`
+  - `EvaluationStrategy.java`, `ObjectiveEvaluation.java`, `DescriptiveEvaluation.java`
+  - `ExamTimeExpiredException.java`
+
+- **`scenario-based/hospital/`** — Hospital appointment scheduling system
+  - `Driver.java` (Main)
+  - `Person.java`, `Patient.java`, `Doctor.java`
+  - `HospitalService.java`, `HospitalServiceImpl.java`
+  - `Appointment.java`, `AppointmentNotAvailableException.java`
+
+- **`scenario-based/hotel/`** — Hotel reservation system with dynamic pricing
+  - `Driver.java` (Main)
+  - `Guest.java`, `Room.java`, `Reservation.java`
+  - `PricingStrategy.java`, `StandardRoom.java`, `DeluxeRoom.java`, `SeasonalPricing.java`
+  - `RoomNotAvailableException.java`
+
+- **`scenario-based/inventory/`** — Inventory management with alert system
+  - `Driver.java` (Main)
+  - `Product.java`, `Inventory.java`
+  - `AlertService.java`, `ConsoleAlertService.java`
+  - `OutOfStockException.java`
+
+- **`scenario-based/library/`** — Library management with fine calculation
+  - `Driver.java` (Main)
+  - `Book.java`, `Member.java`, `User.java`, `Transaction.java`
+  - `FineCalculator.java`, `StudentFineCalculator.java`, `StaffFineCalculator.java`
+  - `BookNotAvailableException.java`
+
+- **`scenario-based/studentcourse/`** — Student course registration system
+  - `Driver.java` (Main)
+  - `Person.java`, `Student.java`, `Course.java`
+  - `RegistrationService.java`, `CourseRegistrationService.java`
+  - `CourseLimitExceededException.java`
+
+- **`scenario-based/voting/`** — Voting system with candidate management
+  - `Driver.java` (Main)
+  - `Candidate.java`
+
+- **`scenario-based/wallet/`** — Digital wallet system
+  - `Driver.java` (Main)
+
+Checkout Files at: [`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/scenario-based) ↗️
+
+**How to Run These Systems:**
+
+```bash
+# E-commerce System
+javac scenario-based/ecommerce/*.java scenario-based/ecommerce/impl/*.java
+java -cp scenario-based ecommerce.Driver
+
+# Exam System
+javac scenario-based/exam/*.java scenario-based/exam/impl/*.java
+java -cp scenario-based exam.Driver
+
+# Hospital System
+javac scenario-based/hospital/*.java scenario-based/hospital/impl/*.java
+java -cp scenario-based hospital.Driver
+
+# Hotel System
+javac scenario-based/hotel/*.java scenario-based/hotel/impl/*.java
+java -cp scenario-based hotel.Driver
+
+# Inventory System
+javac scenario-based/inventory/*.java scenario-based/inventory/impl/*.java
+java -cp scenario-based inventory.Driver
+
+# Library System
+javac scenario-based/library/*.java scenario-based/library/impl/*.java
+java -cp scenario-based library.Driver
+
+# Student Course System
+javac scenario-based/studentcourse/*.java scenario-based/studentcourse/impl/*.java
+java -cp scenario-based studentcourse.Driver
+```
+
+---
+
+### 📅 **16 Jan — Address Book Problem (GCR Submission)**
+
+**Address Book Management System with MVC Architecture**
+
+A full-featured address book application implementing Model-View-Controller pattern with proper DAO and Service layers.
+
+Checkout Files at: [`gcr-codebase/addressbook`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops/gcr-codebase/addressbook) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `model/Contact.java` - Contact data model with name, phone, email, address
+- `impl/AddressBook.java` - AddressBook implementation class
+- `dao/AddressBookDAO.java` - Data Access Object interface
+- `dao/AddressBookDAOImpl.java` - DAO implementation for CRUD operations
+- `service/AddressBookService.java` - Service layer interface
+- `service/AddressBookServiceImpl.java` - Service layer implementation with business logic
+
+**Architecture:**
+- **Model Layer:** `Contact` entity with all contact attributes
+- **DAO Layer:** Data access operations (add, update, delete, search contacts)
+- **Service Layer:** Business logic and validation
+- **Driver Layer:** User interface and menu handling
+
+**How to Run:**
+
+```bash
+# Compile all AddressBook files
+javac gcr-codebase/addressbook/**/*.java
+
+# Run the Address Book system
+java -cp gcr-codebase addressbook.Driver
+```
+
+**Features:**
+- ✅ Add, update, delete, search contacts
+- ✅ Persistent storage support via DAO pattern
+- ✅ Clean separation of concerns (MVC)
+- ✅ Menu-driven user interface
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -291,6 +425,11 @@ The following commit history reflects **actual work progression**:
 2026-01-06 7bd3dc9 [Prakhar Tripathi] Added - 4 Leetcode Questions
 2026-01-06 c8945af [Prakhar Tripathi] Refactored - Readme.md for daily log updation
 2026-01-07 b03845d [Prakhar Tripathi] Added - 2 Scenario Based Questions | Refactored - GitIgnore
+2026-01-09 35dab93 [Prakhar Tripathi] Refactored - Readme and GitIgnore
+2026-01-12 ea76ae5 [Prakhar Tripathi] Refactored - 2 Files to resolve java conflicts (class-and-objects refactored to StudentDemo, EmployeeDemo, etc.)
+2026-01-12 26435f1 [Prakhar Tripathi] Added - 9 Scenario Based Questions (E-commerce, Exam, Hospital, Hotel, Inventory, Library, StudentCourse, Voting, Wallet systems)
+2026-01-16 a3fbabe [Prakhar Tripathi] Renamed - 1 File to resolve java compiler conflict (LibraryManagementSystemTwo.java)
+2026-01-16 a899e80 [Prakhar Tripathi] Added - Address Book Problem in GCR (Contact, AddressBook, DAO, Service layers with MVC architecture)
 ```
 
 To Get This Log Use: 
