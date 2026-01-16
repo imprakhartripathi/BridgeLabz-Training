@@ -1,0 +1,9 @@
+Java is a powerful and versatile programming language.
+It is widely used in enterprise applications and backend systems.
+Java supports object oriented programming principles.
+File handling in Java is done using FileReader and InputStreamReader.
+BufferedReader improves performance when reading large files.
+Java is platform independent and robust.
+Searching algorithms like linear search and binary search are fundamental.
+Binary search works efficiently on sorted data.
+Learning Java builds a strong foundation for software development.
