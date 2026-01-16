@@ -61,7 +61,7 @@ class DVD extends LibraryItem {
     }
 }
 
-public class LibraryManagementSystem {
+public class LibraryManagementSystemOOPS {
     public static void main(String[] args) {
         LibraryItem item = new Book("B1", "Clean Code", "Robert Martin");
         item.getItemDetails();
