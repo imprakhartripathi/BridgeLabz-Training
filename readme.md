@@ -293,6 +293,86 @@ java -cp gcr-codebase inputstreamreader.ClassName
 
 ---
 
+### 📅 **17 Jan — 2 Scenario Based Questions**
+
+**2 Advanced Scenario Based Systems - Book Management & Browser History**
+
+Includes scenario-based problems applying data structures and algorithms to real-world problems.
+
+---
+
+**Bookshelf Management System**
+
+Checkout Files at: [`scenario-based/bookshelf`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/bookshelf) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/Book.java` - Book data model with title, author, ISBN
+- `impl/Library.java` - Library class for managing book collections
+
+**How to Run:**
+```bash
+javac scenario-based/bookshelf/*.java scenario-based/bookshelf/impl/*.java
+java -cp scenario-based bookshelf.Driver
+```
+
+---
+
+**Browser Buddy - Tab History Manager**
+
+Checkout Files at: [`scenario-based/browserbuddy`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/browserbuddy) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/TabManager.java` - Tab management system implementation
+- `impl/TabHistory.java` - History tracking for browser tabs
+- `impl/PageNode.java` - Node class for page history linked list
+
+**How to Run:**
+```bash
+javac scenario-based/browserbuddy/*.java scenario-based/browserbuddy/impl/*.java
+java -cp scenario-based browserbuddy.Driver
+```
+
+**Features:**
+- ✅ Tab opening, closing, and switching
+- ✅ Back/Forward navigation simulation
+- ✅ History tracking with linked list
+- ✅ LRU-style page management
+
+---
+
+### 📅 **19 Jan — Algorithm Runtime Analysis & Big-O Notation**
+
+**Algorithm Complexity Analysis & Performance Comparison**
+
+Comprehensive analysis of algorithm time and space complexities with practical comparisons.
+
+Checkout Files at: [`gcr-codebase/runtimeanalysis`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/gcr-codebase/runtimeanalysis) ↗️
+
+**Files Included:**
+- `DataStructureSearchComparison.java` - Compare search operations across data structures (O(n) vs O(log n))
+- `FibonacciComparison.java` - Compare recursive vs iterative Fibonacci with Big-O analysis
+- `FileReadingComparison.java` - Compare file reading methods performance
+- `SearchComparison.java` - Linear search vs Binary search time complexity comparison
+- `SortingComparison.java` - Compare sorting algorithms (Bubble, Selection, Merge, Quick)
+- `StringConcatenationComparison.java` - Compare String vs StringBuffer vs StringBuilder performance
+
+**How to Run:**
+```bash
+javac gcr-codebase/runtimeanalysis/*.java
+java -cp gcr-codebase runtimeanalysis.ClassName
+```
+
+**Concepts Covered:**
+- ✅ Big-O Notation (O(1), O(n), O(log n), O(n log n), O(n²))
+- ✅ Time Complexity Analysis
+- ✅ Space Complexity Analysis
+- ✅ Practical performance benchmarks
+- ✅ Algorithm optimization strategies
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -308,6 +388,9 @@ The following commit history reflects **actual work progression**:
 2026-01-14 eb0bd53 [Prakhar Tripathi] Added - Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick, Heap, Counting Sort) in GCR
 2026-01-16 bef1fad [Prakhar Tripathi] Refactored - Readme.md
 2026-01-16 2a0b304 [Prakhar Tripathi] Added - "Submission of Linear and Binary Search" in GCR
+2026-01-16 6e441fe [Prakhar Tripathi] Refactored - Readme.md for log updation
+2026-01-17 5db4cd9 [Prakhar Tripathi] Added - 2 Scenario Based Questions
+2026-01-19 04badd7 [Prakhar Tripathi] Added - "Submission of Algorithm's Runtime Analysis & Big-O Notation" in GCR (runtimeanalysis)      
 ```
 
 To Get This Log Use: 
