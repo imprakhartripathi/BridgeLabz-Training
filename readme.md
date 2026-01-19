@@ -342,7 +342,7 @@ java -cp scenario-based browserbuddy.Driver
 
 ---
 
-### 📅 **19 Jan — Algorithm Runtime Analysis & Big-O Notation**
+### 📅 **19 Jan — Algorithm Runtime Analysis & Big-O Notation with 4 Scenario Based Questions (OOPs & Data Structures)**
 
 **Algorithm Complexity Analysis & Performance Comparison**
 
@@ -371,6 +371,102 @@ java -cp gcr-codebase runtimeanalysis.ClassName
 - ✅ Practical performance benchmarks
 - ✅ Algorithm optimization strategies
 
+
+---
+
+**4 Advanced Scenario Based Systems - Banking, Employee Management, Exam Proctoring & Parcel Tracking**
+
+Comprehensive OOPs implementations with inheritance, polymorphism, and data structure applications.
+
+
+**Bank Account Hierarchy**
+
+Checkout Files at: [`scenario-based/bank_account_hierarchy`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/bank_account_hierarchy) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/BankAccount.java` - Base bank account class
+- `impl/SavingsAccount.java` - Savings account with interest calculation
+- `impl/CheckingAccount.java` - Checking account with transaction limits
+
+**How to Run:**
+```bash
+javac scenario-based/bank_account_hierarchy/*.java scenario-based/bank_account_hierarchy/impl/*.java
+java -cp scenario-based bank_account_hierarchy.Driver
+```
+
+**Features:**
+- ✅ Inheritance hierarchy (BankAccount → SavingsAccount, CheckingAccount)
+- ✅ Polymorphic behavior for deposits and withdrawals
+- ✅ Account-specific features (interest, transaction limits)
+
+---
+
+**Employee Role Polymorphism**
+
+Checkout Files at: [`scenario-based/employee_role_polymorphism`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/employee_role_polymorphism) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/Employee.java` - Base employee class
+- `impl/Developer.java` - Developer role with specific responsibilities
+- `impl/Manager.java` - Manager role with team management
+
+**How to Run:**
+```bash
+javac scenario-based/employee_role_polymorphism/*.java scenario-based/employee_role_polymorphism/impl/*.java
+java -cp scenario-based employee_role_polymorphism.Driver
+```
+
+**Features:**
+- ✅ Polymorphic employee roles
+- ✅ Method overriding for role-specific behavior
+- ✅ Salary calculation based on role
+
+---
+
+**Exam Proctoring System**
+
+Checkout Files at: [`scenario-based/examproctor`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/examproctor) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/ExamSession.java` - Exam session management
+- `impl/ScoringService.java` - Automated scoring and grading service
+
+**How to Run:**
+```bash
+javac scenario-based/examproctor/*.java scenario-based/examproctor/impl/*.java
+java -cp scenario-based examproctor.Driver
+```
+
+**Features:**
+- ✅ Exam session creation and management
+- ✅ Automated scoring based on answers
+- ✅ Student performance tracking
+
+---
+
+**Parcel Tracking System**
+
+Checkout Files at: [`scenario-based/parceltracker`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice/scenario-based/parceltracker) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with menu-driven interface
+- `impl/ParcelTracker.java` - Main tracking system implementation
+- `impl/ParcelNode.java` - Node class for tracking history linked list
+
+**How to Run:**
+```bash
+javac scenario-based/parceltracker/*.java scenario-based/parceltracker/impl/*.java
+java -cp scenario-based parceltracker.Driver
+```
+
+**Features:**
+- ✅ Parcel tracking with status updates
+- ✅ Linked list for tracking history
+- ✅ Delivery status management
+
 ---
 
 ## 🧾 Commit History (Chronological)
@@ -391,6 +487,8 @@ The following commit history reflects **actual work progression**:
 2026-01-16 6e441fe [Prakhar Tripathi] Refactored - Readme.md for log updation
 2026-01-17 5db4cd9 [Prakhar Tripathi] Added - 2 Scenario Based Questions
 2026-01-19 04badd7 [Prakhar Tripathi] Added - "Submission of Algorithm's Runtime Analysis & Big-O Notation" in GCR (runtimeanalysis)      
+2026-01-19 ff2c1c9 [Prakhar Tripathi] Refactored - Readme for daily log updation
+2026-01-19 582ed9e [Prakhar Tripathi] Added - 4 Scenario Based Questions
 ```
 
 To Get This Log Use: 
