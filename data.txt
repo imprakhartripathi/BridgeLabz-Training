@@ -1,0 +1,2 @@
+Hello
+Checked exception example
