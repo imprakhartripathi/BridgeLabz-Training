@@ -1,0 +1,3 @@
+This is a sample source file.
+Java FileInputStream and FileOutputStream test.
+End of file.

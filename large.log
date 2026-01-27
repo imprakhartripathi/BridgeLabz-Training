@@ -1,0 +1,6 @@
+INFO Application started successfully
+WARN Disk usage is high
+ERROR Failed to connect to database
+INFO Retrying connection
+Error Timeout while waiting for response
+DEBUG Cache cleared
