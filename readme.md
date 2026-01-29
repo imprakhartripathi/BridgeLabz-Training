@@ -68,10 +68,11 @@ The repository follows a **role-based branching strategy**, where each branch ha
 | Branch | Role | Stability | Link |
 |------|-----|----------|------|
 | `main` | Documentation & Reference Baseline | Stable | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/main) |
+| `reviews` | Evaluation & Performance Tracking | Controlled | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/reviews) |
 | `core-java-practice` | Active Development & Learning | Volatile | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/core-java-practice) |
 | `oops` | Active Development & Learning | Volatile | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/oops) |
 | `dsa-practice` | Active Development & Learning | Volatile | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/dsa-practice) |
-| `reviews` | Evaluation & Performance Tracking | Controlled | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/reviews) |
+| `collections-practice` | Active Development & Learning | Volatile | [Redirect ↗️](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice) |
 
 ---
 
@@ -136,6 +137,21 @@ Dedicated workspace for **hands-on coding and daily practice**.
 
 ---
 
+### `collections-practice` — Execution Layer
+
+**Purpose**  
+Dedicated workspace for **hands-on coding and daily practice**.
+
+**Contains**
+- Java-Collections implementations  
+- Concept-wise programs  
+- Practice problems  
+- Incremental commits reflecting real learning progression  
+
+> This branch intentionally evolves fast and mirrors the learning curve.
+
+---
+
 ### `reviews` — Evaluation & Feedback Layer
 
 **Purpose**  
@@ -172,17 +188,20 @@ flowchart TB
     Main --> Core(["core-java-practice"])
     Main --> OOPS(["oops"])
     Main --> DSA(["dsa-practice"])
+    Main --> COL(["collections-practice"])
     Main --> Reviews(["reviews"])
 
     Core -.- CoreCtx["Daily Coding Problem"]
     OOPS -.- OOPSCtx["Daily Coding Problem"]
     DSA -.- DSACtx["Daily Coding Problem"]
+    COL -.- COLCtx["Daily Coding Problems"]
     Reviews -.- ReviewsCtx["Evaluation Branch"]
 
     MainCtx@{ shape: rounded}
     CoreCtx@{ shape: rounded}
     OOPSCtx@{ shape: rounded}
     DSACtx@{ shape: rounded}
+    COLCtx@{ shape: rounded}
     ReviewsCtx@{ shape: rounded}
 
     classDef branch fill:#ffffff,stroke:#555555
@@ -208,17 +227,19 @@ config:
   look: handDrawn
 ---
 flowchart LR
+    E["Entry Point"] --> F(["main"])
+    C["Evaluations"] --> D(["reviews"])
     A["Core Java Questions"] --> B(["core-java-practice"])
     G["OOP Concepts + Ques"] --> H(["oops"])
     I["DSA Concepts + Ques"] --> J(["dsa-practice"])
-    C["Evaluations"] --> D(["reviews"])
-    E["Entry Point"] --> F(["main"])
+    K["Java Collections + Ques"] --> L(["collections-practice"])
 
     A@{ shape: card}
     G@{ shape: card}
     C@{ shape: card}
     E@{ shape: card}
     I@{ shape: card}
+    K@{ shape: card}
 
 ```
 
@@ -250,7 +271,7 @@ This repository is designed to be **reviewed, not just run**.
 
 ## Notes for Reviewers & Mentors
 
-* For active code: switch to `core-java-practice` `oops` `dsa-practice`
+* For active code: switch to `core-java-practice` `oops` `dsa-practice` `collections-practice`
 * For evaluations and feedback: refer to `reviews`
 * For repository understanding and context: stay on `main`
 
