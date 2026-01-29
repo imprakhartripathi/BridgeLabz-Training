@@ -27,6 +27,9 @@ The codebase is organized by concept for clarity and scalability:
   - [`set`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/set) ↗️ Set collection implementations
   - [`streams`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/streams) ↗️ Java Streams API implementations
   - [`exceptions`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/exceptions) ↗️ Exception handling implementations
+  - [`lexicaltwist`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/lexicaltwist) ↗️ Lexical twist problem
+  - [`cleanseinvert`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/cleanseinvert) ↗️ Clean and invert logical problem
+  - [`futurelogistics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/futurelogistics) ↗️ Future logistics optimization
 
 - **[`scenario-based`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based) ↗️**  Scenario-driven problems applying collections and Java concepts
 
@@ -225,6 +228,66 @@ Reorganized scenario-based questions into proper directory structure for better 
 
 ---
 
+### 📅 **29 Jan — Lexical Twist, Flip Key & Future Logistics**
+
+**New GCR Submissions - Logical Problems & Algorithms**
+
+Submission of three new algorithmic problems in GCR focusing on string manipulation, logical problem solving, and logistics optimization.
+
+**Lexical Twist - String Manipulation:**
+Checkout Files at: [`gcr-codebase/lexicaltwist`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/lexicaltwist) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with test cases
+- `impl/LexicalUtil.java` - Lexical utility implementation
+
+**How to Run:**
+```bash
+javac gcr-codebase/lexicaltwist/*.java gcr-codebase/lexicaltwist/impl/*.java
+java -cp gcr-codebase lexicaltwist.Driver
+```
+
+---
+
+**Flip Key - Logical Problem:**
+Checkout Files at: [`gcr-codebase/cleanseinvert`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/cleanseinvert) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with test cases
+- `impl/StringUtil.java` - String utility for clean and invert operations
+
+**How to Run:**
+```bash
+javac gcr-codebase/cleanseinvert/*.java gcr-codebase/cleanseinvert/impl/*.java
+java -cp gcr-codebase cleanseinvert.Driver
+```
+
+---
+
+**Future Logistics - Transport Optimization:**
+Checkout Files at: [`gcr-codebase/futurelogistics`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/futurelogistics) ↗️
+
+**Files Included:**
+- `Driver.java` - Main driver class with test cases
+- `impl/BrickTransport.java` - Brick transport optimization
+- `impl/GoodsTransport.java` - Goods transport management
+- `impl/TimberTransport.java` - Timber transport optimization
+- `impl/Utility.java` - Common utility functions
+
+**How to Run:**
+```bash
+javac gcr-codebase/futurelogistics/*.java gcr-codebase/futurelogistics/impl/*.java
+java -cp gcr-codebase futurelogistics.Driver
+```
+
+**Concepts Covered:**
+- ✅ String manipulation and lexical operations
+- ✅ Logical problem solving with clean/invert patterns
+- ✅ Transport and logistics optimization algorithms
+- ✅ Modular code structure with reusable utilities
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -237,7 +300,9 @@ The following commit history reflects **actual work progression**:
 2026-01-27 1b939ec [Prakhar Tripathi] Added - Submission of Java Streams in GCR
 2026-01-27 d88eee7 [Prakhar Tripathi] Added - Submission of Exceptions in GCR
 2026-01-29 e46f975 [Prakhar Tripathi] Added - 2 Scenario Based Questions
-2026-01-29 142b8b9 [Prakhar Tripathi] Refactored - Re-Added 2 Scenario Based Questions in the Correct Dir%
+2026-01-29 142b8b9 [Prakhar Tripathi] Refactored - Re-Added 2 Scenario Based Questions in the Correct Dir
+2026-01-29 50eda67 [Prakhar Tripathi] Refactored - Readme for log updation
+2026-01-29 042a7dc [Prakhar Tripathi] Added - Submission of LexicalTwist, Flip Key Logical Problem, and FutureLogistics in GCR    
 ```
 
 To Get This Log Use:
@@ -252,3 +317,4 @@ git log --pretty=format:"%ad %h %s" --date=short --reverse
 * Weekly sections will be extended as training progresses
 * Daily summaries will stay **short and factual**
 * Commit history will remain the **single source of truth**
+
