@@ -5,7 +5,7 @@ import java.io.FileReader;
 
 public class SearchRecord {
     public static void main(String[] args) throws Exception {
-        String target = "Alice";
+        String target = "Rahul";
         BufferedReader br = new BufferedReader(new FileReader("employees.csv"));
         br.readLine();
         String line;

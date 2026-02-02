@@ -1,0 +1,9 @@
+emp_id,name,department,designation,salary,email
+101,Rahul Sharma,Engineering,Software Engineer,85000,rahul.sharma@company.com
+102,Neha Verma,Engineering,Senior Software Engineer,110000,neha.verma@company.com
+103,Amit Singh,HR,HR Executive,60000,amit.singh@company.com
+104,Pooja Mehta,Finance,Accountant,70000,pooja.mehta@company.com
+105,Suresh Kumar,Engineering,Tech Lead,130000,suresh.kumar@company.com
+106,Anjali Gupta,Marketing,Marketing Manager,90000,anjali.gupta@company.com
+107,Rohit Malhotra,Sales,Sales Executive,65000,rohit.malhotra@company.com
+108,Kiran Patel,Operations,Operations Manager,95000,kiran.patel@company.com
