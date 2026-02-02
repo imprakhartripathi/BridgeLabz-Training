@@ -13,13 +13,12 @@ public class JsonCsvConverter {
     public static void main(String[] args) throws Exception {
 
         System.out.println("=== JSON → CSV ===");
-        jsonToCsv("students.json", "students.csv");
+        jsonToCsv("students.json", "jsonstudents.csv");
 
         System.out.println("\n=== CSV → JSON ===");
         csvToJson("students.csv", "students_back.json");
     }
 
-    // ---------------- JSON → CSV ----------------
 
     private static void jsonToCsv(String jsonFile, String csvFile) throws Exception {
 
