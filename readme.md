@@ -288,6 +288,283 @@ java -cp gcr-codebase futurelogistics.Driver
 
 ---
 
+### 📅 **29 Jan — Regex**
+
+**Regular Expressions Implementation**
+
+Comprehensive implementation of regex patterns for text processing and validation.
+
+Checkout Files at: [`gcr-codebase/regex`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/regex) ↗️
+
+**Files Included:**
+- `CensorBadWords.java` - Censor bad words using regex
+- `ExtractCapitalizedWords.java` - Extract capitalized words
+- `ExtractCurrencyValues.java` - Extract currency values from text
+- `ExtractDates.java` - Extract dates in various formats
+- `ExtractEmails.java` - Extract email addresses
+- `ExtractLinks.java` - Extract URLs and links
+- `ExtractProgrammingLanguages.java` - Extract programming language names
+- `FindRepeatingWords.java` - Find repeating words in text
+- `ReplaceMultipleSpaces.java` - Replace multiple spaces with single space
+- `ValidateCreditCard.java` - Validate credit card numbers
+- `ValidateHexColor.java` - Validate hex color codes
+- `ValidateIPAddress.java` - Validate IP addresses
+- `ValidateLicensePlate.java` - Validate license plate formats
+- `ValidateSSN.java` - Validate Social Security Numbers
+- `ValidateUsername.java` - Validate usernames
+
+**How to Run Regex Programs:**
+```bash
+javac gcr-codebase/regex/*.java
+java -cp gcr-codebase regex.ClassName
+```
+
+---
+
+### 📅 **30 Jan — JUnit Testing**
+
+**Unit Testing with JUnit Framework**
+
+Implementation of comprehensive unit tests using JUnit 4 and JUnit 5.
+
+Checkout Files at: [`gcr-codebase/junit`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/junit) ↗️
+
+**Concepts Covered:**
+- JUnit annotations (@Test, @Before, @After, @BeforeClass, @AfterClass)
+- Assertions and exception testing
+- Parameterized tests
+- Test suites
+
+---
+
+### 📅 **2 Feb — Annotations, Reflection & CSV Data Handling**
+
+**Advanced Java Concepts Implementation**
+
+Three major submissions covering annotations, reflection API, and CSV data processing.
+
+**Annotations:**
+Checkout Files at: [`gcr-codebase/annotations`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/annotations) ↗️
+
+**Files Included:**
+- `CacheAnnotationDemo.java` - Custom cache annotation
+- `CustomAnnotationDemo.java` - Custom annotation implementation
+- `DeprecatedDemo.java` - @Deprecated annotation usage
+- `OverrideDemo.java` - @Override annotation
+- `RepeatableAnnotationDemo.java` - Repeatable annotations
+- `SuppressWarningsDemo.java` - @SuppressWarnings annotation
+- `ValidationAnnotation.java` - Custom validation annotation
+
+**Reflection:**
+Checkout Files at: [`gcr-codebase/reflections`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/reflections) ↗️
+
+**Files Included:**
+- `ClassInfo.java` - Get class information using reflection
+- `DependencyInjection.java` - Simple DI container
+- `DynamicMethodCall.java` - Invoke methods dynamically
+- `DynamicObjectCreation.java` - Create objects dynamically
+- `InvokePrivateMethod.java` - Invoke private methods
+- `LoggingProxy.java` - Proxy with logging
+- `MethodExecutionTiming.java` - Measure method execution time
+- `ModifyStaticField.java` - Modify static fields
+- `ObjectMapper.java` - Map objects to other types
+- `ObjectToJSON.java` - Convert objects to JSON
+- `PrivateFieldAccess.java` - Access private fields
+- `RuntimeAnnotationReader.java` - Read annotations at runtime
+
+**CSV Data Handling:**
+Checkout Files at: [`gcr-codebase/csv`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/csv) ↗️
+
+**Files Included:**
+- `CountRows.java` - Count rows in CSV
+- `CSVToObject.java` - Convert CSV to objects
+- `DatabaseToCSV.java` - Export database to CSV
+- `DetectDuplicates.java` - Detect duplicate records
+- `EncryptDecryptCSV.java` - Encrypt/decrypt CSV data
+- `FilterRecords.java` - Filter CSV records
+- `JsonCsvConverter.java` - Convert between JSON and CSV
+- `LargeCSVReader.java` - Read large CSV files efficiently
+- `MergeCSV.java` - Merge multiple CSV files
+- `ReadCSV.java` - Read CSV files
+- `SearchRecord.java` - Search records in CSV
+- `SortBySalary.java` - Sort by salary column
+- `UpdateCSV.java` - Update CSV records
+- `ValidateCSV.java` - Validate CSV data
+- `WriteCSV.java` - Write to CSV files
+
+**How to Run:**
+```bash
+javac gcr-codebase/annotations/*.java
+java -cp gcr-codebase annotations.ClassName
+```
+
+---
+
+### 📅 **2 Feb — Lambda Expressions & Stream Buzz**
+
+**Functional Programming in Java**
+
+Implementation of lambda expressions and functional interfaces.
+
+Checkout Files at: [`gcr-codebase/lambda`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/lambda) ↗️
+
+**Files Included:**
+- `MethodReferencesDemo.java` - Method references (static, instance, constructor)
+- `NotificationFilter.java` - Filter notifications using lambdas
+- `ProductSorting.java` - Sort products with lambdas
+- `SmartLighting.java` - Smart lighting control with lambdas
+
+**Concepts Covered:**
+- Lambda expressions syntax and usage
+- Functional interfaces (@FunctionalInterface)
+- Method references
+- Built-in functional interfaces (Predicate, Consumer, Function, Supplier)
+
+---
+
+### 📅 **2 Feb — Functional Interfaces**
+
+**Comprehensive Functional Interface Implementation**
+
+Implementation of various functional interfaces for real-world scenarios.
+
+Checkout Files at: [`gcr-codebase/functional_interfaces`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/functional_interfaces) ↗️
+
+**Files Included:**
+- `BackgroundJob.java` - Runnable functional interface
+- `BackupDemo.java` - Supplier functional interface
+- `CloneDemo.java` - Supplier functional interface
+- `DataExportDemo.java` - Runnable functional interface
+- `DateFormatterDemo.java` - Function interface
+- `DigitalPaymentDemo.java` - Consumer functional interface
+- `PasswordValidator.java` - Predicate functional interface
+- `PaymentGatewayDemo.java` - Function interface
+- `SensitiveDataDemo.java` - Supplier functional interface
+- `SmartDeviceDemo.java` - Consumer functional interface
+- `StringLengthChecker.java` - Function interface
+- `TemperatureAlert.java` - Consumer functional interface
+- `UnitConversion.java` - Function interface
+- `VehicleDashboardDemo.java` - Consumer and Function interfaces
+- `VehicleRentalDemo.java` - Function interface
+
+---
+
+### 📅 **2 Feb — JSON Data Handling**
+
+**JSON Processing in Java**
+
+Implementation of JSON parsing, generation, and manipulation.
+
+Checkout Files at: [`gcr-codebase/json`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/json) ↗️
+
+**Files Included:**
+- `CarToJsonDemo.java` - Convert objects to JSON
+- `JsonFilterDemo.java` - Filter JSON data
+- `JsonMergeDemo.java` - Merge JSON objects
+- `StudentJsonDemo.java` - Student data JSON operations
+
+---
+
+### 📅 **2 Feb — Scenario Based Questions (AeroVigil)**
+
+**Advanced Scenario Implementation**
+
+Real-world scenario application using Java collections and functional programming.
+
+Checkout Files at: [`scenario-based/aerovigil`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/aerovigil) ↗️
+
+**Concepts Covered:**
+- Collection operations with streams
+- Functional programming patterns
+- Real-world aerospace monitoring scenario
+
+---
+
+### 📅 **2 Feb — Stream Buzz**
+
+**Stream API Advanced Operations**
+
+Advanced stream operations for data processing.
+
+Checkout Files at: [`scenario-based/streambuzz`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/streambuzz) ↗️
+
+---
+
+### 📅 **3 Feb — Collectors**
+
+**Stream Collectors Implementation**
+
+Comprehensive implementation of Java Stream collectors for data aggregation.
+
+Checkout Files at: [`gcr-codebase/collectors`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/collectors) ↗️
+
+**Files Included:**
+- `EmployeeSalaryStats.java` - Salary statistics collection
+- `LibraryBookStats.java` - Library book statistics
+- `OrderRevenue.java` - Order revenue calculation
+- `StudentGrouping.java` - Group students by criteria
+- `WordFrequency.java` - Word frequency analysis
+
+**How to Run:**
+```bash
+javac gcr-codebase/collectors/*.java
+java -cp gcr-codebase collectors.ClassName
+```
+
+**Collectors Used:**
+- `collect(Collectors.toList())`
+- `collect(Collectors.toSet())`
+- `collect(Collectors.toMap())`
+- `collect(Collectors.groupingBy())`
+- `collect(Collectors.partitioningBy())`
+- `collect(Collectors.counting())`
+- `collect(Collectors.summingInt/Double())`
+- `collect(Collectors.averagingInt/Double())`
+- `collect(Collectors.maxBy/minBy())`
+- `collect(Collectors.joining())`
+- `collect(Collectors.summarizingInt/Double())`
+
+---
+
+### 📅 **3 Feb — Stream API**
+
+**Stream API Comprehensive Implementation**
+
+Complete implementation of Java 8+ Stream API for data processing.
+
+Checkout Files at: [`gcr-codebase/streamapi`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/streamapi) ↗️
+
+**Files Included:**
+- `DoctorAvailability.java` - Doctor availability checking
+- `EmailNotifications.java` - Email notification system
+- `EventWelcome.java` - Event welcome message generation
+- `ExpiringMemberships.java` - Find expiring memberships
+- `InsuranceClaimAnalysis.java` - Insurance claim processing
+
+**Concepts Covered:**
+- Stream creation (from collections, arrays, etc.)
+- Intermediate operations (filter, map, flatMap, distinct, sorted, limit, skip)
+- Terminal operations (forEach, collect, reduce, count, min, max, anyMatch, allMatch, noneMatch)
+- Primitive streams (IntStream, LongStream, DoubleStream)
+
+---
+
+### 📅 **3 Feb — Factory Robot Hazard Analyzer**
+
+**Scenario-Based Stream Application**
+
+Real-world scenario implementation for factory safety monitoring using streams.
+
+Checkout Files at: [`scenario-based/robothazard`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/robothazard) ↗️
+
+**Concepts Covered:**
+- Complex stream pipeline operations
+- Multi-criteria filtering and analysis
+- Real-time hazard detection and reporting
+- Data aggregation for safety metrics
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -302,7 +579,18 @@ The following commit history reflects **actual work progression**:
 2026-01-29 e46f975 [Prakhar Tripathi] Added - 2 Scenario Based Questions
 2026-01-29 142b8b9 [Prakhar Tripathi] Refactored - Re-Added 2 Scenario Based Questions in the Correct Dir
 2026-01-29 50eda67 [Prakhar Tripathi] Refactored - Readme for log updation
-2026-01-29 042a7dc [Prakhar Tripathi] Added - Submission of LexicalTwist, Flip Key Logical Problem, and FutureLogistics in GCR    
+2026-01-29 042a7dc [Prakhar Tripathi] Added - Submission of LexicalTwist, Flip Key Logical Problem, and FutureLogistics in GCR
+2026-01-29 da31c7f [Prakhar Tripathi] Refactored - Readme
+2026-01-29 8f71ef8 [Prakhar Tripathi] Added - Submission of Regex in GCR
+2026-01-30 09110bd [Prakhar Tripathi] Added - Submission of JUnit in GCR
+2026-02-02 7a97350 [Prakhar Tripathi] Added - Submission of Annotations, Reflection, and CSV Data Handling (-3 Ques) in GCR
+2026-02-02 2ca29fe [Prakhar Tripathi] Added - Submission of Lambda Expressions, Stream Buzz, and AeroVigil in GCR and Scenario Based | Refactored - 5 Files Having Bugs
+2026-02-02 c993d24 [Prakhar Tripathi] Refactored - JSON-CSV Converter
+2026-02-02 794e52d [Prakhar Tripathi] Added - Submission of JSON Data | Refactored - .gitignore
+2026-02-02 69d7ca5 [Prakhar Tripathi] Added - Submission of Functional Interfaces in GCR
+2026-02-03 10d8dc6 [Prakhar Tripathi] Added - Submission of Collectors in GCR
+2026-02-03 f12021b [Prakhar Tripathi] Added - Submission of Stream API in GCR
+2026-02-03 a477f35 [Prakhar Tripathi] Added - Submission of Factory Robot Hazard Analyzer in Scenario Based
 ```
 
 To Get This Log Use:
