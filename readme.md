@@ -565,6 +565,39 @@ Checkout Files at: [`scenario-based/robothazard`](https://github.com/imprakhartr
 
 ---
 
+### 📅 **3 Feb — Refactored - Readme**
+
+**Documentation Update**
+
+Updated and reorganized the readme for better clarity and maintainability.
+
+**Changes Made:**
+- Improved section formatting
+- Enhanced commit history documentation
+- Better organized repository structure
+
+---
+
+### 📅 **4 Feb — 2 Scenario Based Questions**
+
+**New Scenario Implementation**
+
+Added two new scenario-based problems to apply Java concepts.
+
+**New Scenario Systems:**
+- `attendance/` - Attendance management system
+- `fooddelivery/` - Food delivery ordering system
+
+Checkout Files at: [`scenario-based/attendance`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/attendance) ↗️ and [`scenario-based/fooddelivery`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/fooddelivery) ↗️
+
+**Concepts Covered:**
+- Collection management with real-world scenarios
+- Order processing and tracking
+- User management systems
+- Data validation and processing
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -591,7 +624,8 @@ The following commit history reflects **actual work progression**:
 2026-02-03 10d8dc6 [Prakhar Tripathi] Added - Submission of Collectors in GCR
 2026-02-03 f12021b [Prakhar Tripathi] Added - Submission of Stream API in GCR
 2026-02-03 a477f35 [Prakhar Tripathi] Added - Submission of Factory Robot Hazard Analyzer in Scenario Based
-```
+2026-02-03 57d32a4 [Prakhar Tripathi] Refactored - Readme
+2026-02-04 acf2c8c [Prakhar Tripathi] Added - Submission of 2 Scenario Based Questions%
 
 To Get This Log Use:
 ```bash
