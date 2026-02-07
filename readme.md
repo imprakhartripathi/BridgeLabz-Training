@@ -598,12 +598,100 @@ Checkout Files at: [`scenario-based/attendance`](https://github.com/imprakhartri
 
 ---
 
+### 📅 **4 Feb — Refactored - Readme**
+
+**Documentation Enhancement**
+
+Updated the readme for better project documentation and clarity.
+
+**Changes Made:**
+- Improved section organization
+- Enhanced navigation links
+- Updated commit history section
+- Better formatted code examples
+
+---
+
+### 📅 **5 Feb — Design Patterns**
+
+**Software Design Pattern Implementation**
+
+Implementation of industry-standard design patterns in Java for better code organization and maintainability.
+
+**Library Management System:**
+Checkout Files at: [`gcr-codebase/lms`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/lms) ↗️
+
+**Files Included:**
+- `LibraryApp.java` - Main application class
+- `users/` - User management module
+- `impl/` - Implementation classes
+
+**Design Patterns Covered:**
+- **Creational Patterns** - Singleton, Factory, Builder
+- **Structural Patterns** - Adapter, Decorator, Facade
+- **Behavioral Patterns** - Observer, Strategy, Command
+
+**Concepts Applied:**
+- Loose coupling through abstraction
+- Reusable component design
+- Separation of concerns
+- SOLID principles implementation
+
+---
+
+### 📅 **7 Feb — Multi-Threading in GCR**
+
+**Concurrent Programming in Java**
+
+Comprehensive implementation of multi-threading concepts for concurrent application development.
+
+Checkout Files at: [`gcr-codebase/multithreading`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/multithreading) ↗️
+
+**Multi-Threading Systems:**
+- `bankingsystem/` - Concurrent banking operations
+- `downloadmanager/` - Parallel file download manager
+- `printshop/` - Multi-threaded print job queue
+- `restaurant/` - Concurrent order processing
+- `statemonitor/` - Real-time state monitoring
+
+**Concepts Covered:**
+- Thread creation and lifecycle management
+- Synchronization and thread safety
+- ExecutorService and thread pools
+- Inter-thread communication
+- Deadlock prevention techniques
+
+**How to Run Multi-Threading Programs:**
+```bash
+javac gcr-codebase/multithreading/module/*.java
+java -cp gcr-codebase multithreading.module.ClassName
+```
+
+---
+
+### 📅 **7 Feb — Ocean Fleet Scenario**
+
+**Maritime Fleet Management System**
+
+Real-world scenario implementation for fleet tracking and management using Java collections and concurrency.
+
+Checkout Files at: [`scenario-based/oceanfleet`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/oceanfleet) ↗️
+
+**Concepts Covered:**
+- Fleet tracking and monitoring
+- Concurrent vessel operations
+- Route optimization algorithms
+- Real-time data management
+- Multi-threaded coordination
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
 > Note: Commit entries are documented post-commit. Therefore, the branch history on GitHub may occasionally be ahead of this log.
 
-```
+```log
 2026-01-20 a5d7d08 [Prakhar Tripathi] Created Branch "collections-practice" and Added - 1 Scenario Based Question and Submission of Generics in GCR
 2026-01-22 86b670d [Prakhar Tripathi] Added - Submission of Collections in GCR
 2026-01-22 7e03d66 [Prakhar Tripathi] Added - 2 Scenario Based Questions
@@ -625,7 +713,11 @@ The following commit history reflects **actual work progression**:
 2026-02-03 f12021b [Prakhar Tripathi] Added - Submission of Stream API in GCR
 2026-02-03 a477f35 [Prakhar Tripathi] Added - Submission of Factory Robot Hazard Analyzer in Scenario Based
 2026-02-03 57d32a4 [Prakhar Tripathi] Refactored - Readme
-2026-02-04 acf2c8c [Prakhar Tripathi] Added - Submission of 2 Scenario Based Questions%
+2026-02-04 acf2c8c [Prakhar Tripathi] Added - Submission of 2 Scenario Based Questions
+2026-02-04 0588d97 [Prakhar Tripathi] Refactored - Readme
+2026-02-05 3429d0f [Prakhar Tripathi] Added - Submission on Design Patterns
+2026-02-07 4e6bf61 [Prakhar Tripathi] Added - Submission of Multi-Threading in GCR and Ocean Fleet in Scenario Based
+```        
 
 To Get This Log Use:
 ```bash
