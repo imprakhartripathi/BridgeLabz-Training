@@ -1,0 +1,7 @@
+package eventfeedback.analyzer;
+
+public class InvalidRatingException extends RuntimeException {
+    public InvalidRatingException(String msg) {
+        super(msg);
+    }
+}
