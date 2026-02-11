@@ -686,6 +686,61 @@ Checkout Files at: [`scenario-based/oceanfleet`](https://github.com/imprakhartri
 
 ---
 
+### 📅 **9 Feb — JDBC - DBMS and SonarQube Analysis**
+
+**Database Connectivity & Code Quality Analysis**
+
+Implementation of JDBC database operations and code quality analysis using SonarQube.
+
+**Health Clinic Application:**
+Checkout Files at: [`gcr-codebase/jdbc-dbms-health-clinic-app`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/jdbc-dbms-health-clinic-app) ↗️
+
+**Files Included:**
+- `Health Clinic App.zip` - Complete health clinic application
+
+**JDBC Concepts Covered:**
+- Database connection management
+- CRUD operations with JDBC
+- PreparedStatement usage
+- Transaction management
+- ResultSet handling
+
+**SonarQube Analysis:**
+Checkout Files at: [`sonar-qube-analysis`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/gcr-codebase/jdbc-dbms-health-clinic-app/sonar-qube-analysis) ↗️
+
+**Code Quality Metrics:**
+- Code smell detection
+- Bug identification
+- Security hotspot analysis
+- Code coverage improvements
+- Technical debt assessment
+
+---
+
+### 📅 **11 Feb — 5 Scenario Based Questions**
+
+**Advanced Scenario Implementation**
+
+Added five new scenario-based problems covering various Java concepts.
+
+**New Scenario Systems:**
+- `auction/` - Online auction management system
+- `energy/` - Energy consumption tracking
+- `eventfeedback/` - Event feedback management
+- `jobportal/` - Job portal application
+- `playlist/` - Music playlist management
+
+Checkout Files at: [`scenario-based/auction`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/auction) ↗️, [`scenario-based/energy`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/energy) ↗️, [`scenario-based/eventfeedback`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/eventfeedback) ↗️, [`scenario-based/jobportal`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/jobportal) ↗️, and [`scenario-based/playlist`](https://github.com/imprakhartripathi/BridgeLabz-Training/tree/collections-practice/scenario-based/playlist) ↗️
+
+**Concepts Covered:**
+- Advanced collection operations
+- User management systems
+- Real-time data processing
+- Event-driven architecture
+- Complex business logic implementation
+
+---
+
 ## 🧾 Commit History (Chronological)
 
 The following commit history reflects **actual work progression**:
@@ -717,6 +772,9 @@ The following commit history reflects **actual work progression**:
 2026-02-04 0588d97 [Prakhar Tripathi] Refactored - Readme
 2026-02-05 3429d0f [Prakhar Tripathi] Added - Submission on Design Patterns
 2026-02-07 4e6bf61 [Prakhar Tripathi] Added - Submission of Multi-Threading in GCR and Ocean Fleet in Scenario Based
+2026-02-07 588df58 [Prakhar Tripathi] Refactored - Readme
+2026-02-09 005a2ca [Prakhar Tripathi] Added - Submission of JDBC - DBMS and Sonar Qube Analysis
+2026-02-11 6a518bf [Prakhar Tripathi] Added - 5 Scenario Based Questions%  
 ```        
 
 To Get This Log Use:
